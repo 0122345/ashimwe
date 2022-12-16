@@ -1,0 +1,92 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #333333;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightslategray;
+    text-align: center;
+    
+} 
+li{
+    float: center;
+
+}
+li a{
+    display: block;
+    font-size: 15px;
+    padding: 10 px 20px;
+    text-decoration: none;
+}
+.nav{
+    color: aliceblue;
+}
+li a:hover{
+    background-color: #333333;
+    color: darkslategrey;
+}
+.a1{
+    position:  absolute;
+    width: 15px;
+    height: 15px;
+    left: 1442px;
+    top: 262px;
+}
+.a2{
+    position:  absolute;
+    width: 15px;
+    height: 15px;
+    left: 1442px;
+    top: 314px;
+}
+.a3{
+    position:  absolute;
+    width: 15px;
+    height: 15px;
+    left: 1442px;
+    top: 374px;
+}
+.a4{
+    position:  absolute;
+    width: 15px;
+    height: 15px;
+    left: 1442px;
+    top: 374px;
+}
+.a5{
+    position:  absolute;
+    width: 15px;
+    height: 15px;
+    left: 1442px;
+    top: 427px;
+}
+.listing{
+    /* 🦆 icon "hamburger menu" */
+
+position: absolute;
+width: 48.4px;
+height: 44px;
+left: 1414px;
+top: 43px;
+
+}
+.bottom{
+    position: absolute;
+    left: 1371px;
+    top: 900px;
+    display: inline;
+    display: table-row;
+}
+img{
+    float: right;
+    width: fit-content;
+    height: auto;
+}
+
+
