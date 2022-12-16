@@ -1,6 +1,6 @@
 html{
-    padding: 0;
-    margin: 0;
+    width: 1511.65px;
+    height: 1050px;
 }
 body{
     background-color: #333333;
@@ -84,9 +84,16 @@ top: 43px;
     display: table-row;
 }
 img{
-    float: right;
-    width: fit-content;
-    height: auto;
+    /* Rectangle 4 */
+
+position: absolute;
+width: 577px;
+height: 982px;
+left: 831px;
+top: 0px;
+
+/* background: url(Rhonah_20221015_145218-removebg-preview.png); */
+
 }
 
 
