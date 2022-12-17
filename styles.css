@@ -1,35 +1,12 @@
 html{
-    width: 1511.65px;
-    height: 1050px;
+    padding:0;
+    margin: 0;
 }
 body{
     background-color: #333333;
 }
 ul{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: lightslategray;
-    text-align: center;
-    
-} 
-li{
-    float: center;
-
-}
-li a{
-    display: block;
-    font-size: 15px;
-    padding: 10 px 20px;
-    text-decoration: none;
-}
-.nav{
-    color: aliceblue;
-}
-li a:hover{
-    background-color: #333333;
-    color: darkslategrey;
 }
 .a1{
     position:  absolute;
@@ -82,24 +59,21 @@ height: 44px;
 left: 1414px;
 top: 43px;
 
-}
-.bottom{
+} 
+ .bottom{
     position: absolute;
     left: 1371px;
     top: 900px;
     display: inline;
     display: table-row;
-}
+} 
 img{
-    /* Rectangle 4 */
-
 position: absolute;
 width: 577px;
 height: 982px;
 left: 831px;
 top: 0px;
 
-/* background: url(Rhonah_20221015_145218-removebg-preview.png); */
 
 }
 

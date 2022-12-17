@@ -116,8 +116,8 @@ top: 43px;
 ul{
     list-style-type:  none;
 }
-#ico{
-    left: 1355px;
-    top: 1004px;
-}
 
+#ico{
+    position: right bottom;
+
+}
