@@ -1,6 +1,10 @@
+body{
+    background-image: url("map.jpg");
+}
+ul{
+    list-style-type:  none;
+}
 .sp{
-
-
 position: absolute;
 width: 391px;
 height: 58px;
@@ -74,7 +78,4 @@ left: 806px;
 top: 353px;
 
 background: #2F2F2F;
-
-
-
 }
