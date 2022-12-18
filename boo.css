@@ -1,7 +1,9 @@
 body{
     background-image: url(pexels-jorge-jesus-614117.jpg);
 }
-
+ul{
+    list-style-type:  none;
+}
 .des{
 position: absolute;
 width: 550px;
@@ -110,3 +112,55 @@ background: #111926;
 
 }
 /* bimwe byapfukiranye ibindi */
+.a1{
+    position:  absolute;
+    width: 15px;
+    height: 15px;
+    left: 1442px;
+    top: 262px;
+}
+.a2{
+    position:  absolute;
+    width: 15px;
+    height: 15px;
+    left: 1442px;
+    top: 314px;
+}
+.a3{
+    position:  absolute;
+    width: 15px;
+    height: 15px;
+    left: 1442px;
+    top: 374px;
+}
+.a4{
+    position:  absolute;
+    width: 15px;
+    height: 15px;
+    left: 1442px;
+    top: 374px;
+}
+.a5{
+    position:  absolute;
+    width: 15px;
+    height: 15px;
+    left: 1442px;
+    top: 427px;
+}
+
+.a6{
+    position:  absolute;
+    width: 15px;
+    height: 15px;
+    left: 1442px;
+    top: 477px;
+}
+.listing{
+    /* 🦆 icon "hamburger menu" */
+
+position: absolute;
+width: 48.4px;
+height: 44px;
+left: 1414px;
+top: 43px;
+}
