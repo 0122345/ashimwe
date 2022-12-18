@@ -89,35 +89,35 @@ top: 744px;
 background: #FF2642;
 
 }
-.a1{
+#index{
     position:  absolute;
     width: 15px;
     height: 15px;
     left: 1442px;
     top: 262px;
 }
-.a2{
+#education{
     position:  absolute;
     width: 15px;
     height: 15px;
     left: 1442px;
     top: 314px;
 }
-.a3{
+#experience{
     position:  absolute;
     width: 15px;
     height: 15px;
     left: 1442px;
     top: 374px;
 }
-.a4{
+#blog{
     position:  absolute;
     width: 15px;
     height: 15px;
     left: 1442px;
     top: 374px;
 }
-.a5{
+#contact{
     position:  absolute;
     width: 15px;
     height: 15px;
@@ -131,7 +131,7 @@ background: #FF2642;
     height: 15px;
     left: 1442px;
     top: 477px;
-}
+} 
 .listing{
     /* 🦆 icon "hamburger menu" */
 
@@ -140,4 +140,11 @@ width: 48.4px;
 height: 44px;
 left: 1414px;
 top: 43px;
+}
+.ico{
+    position: absolute;
+    left: 1371px;
+    top: 900px;
+    /* display: inline;
+    display: table-row; */
 }
