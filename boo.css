@@ -1,0 +1,112 @@
+body{
+    background-image: url(pexels-jorge-jesus-614117.jpg);
+}
+
+.des{
+position: absolute;
+width: 550px;
+height: 96px;
+left: 839px;
+top: 213px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+
+color: #FFFFFF;
+}
+.co{
+     
+
+position: absolute;
+width: 162px;
+height: 48px;
+left: 757px;
+top: 644px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+
+color: #FFFFFF;
+
+
+}
+.htn{
+position: absolute;
+width: 70px;
+height: 39px;
+left: 1141px;
+top: 452px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+
+color: #FFFFFF;
+}
+.conbr{
+position: absolute;
+width: 70px;
+height: 39px;
+left: 1148px;
+top: 656px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+
+color: #FFFFFF;
+
+}
+.boh{
+    /* Rectangle 9 */
+
+position: absolute;
+width: 358px;
+height: 54px;
+left: 756px;
+top: 491px;
+
+background: #C32865;
+/* Rectangle 10 */
+
+position: absolute;
+width: 168px;
+height: 54px;
+left: 1057px;
+top: 491px;
+
+background: #222222;
+
+}
+.boco{
+    /* Rectangle 11 */
+
+position: absolute;
+width: 275px;
+height: 55px;
+left: 732px;
+top: 692px;
+
+background: #C32865;
+/* Rectangle 12 */
+
+position: absolute;
+width: 218px;
+height: 55px;
+left: 1007px;
+top: 692px;
+
+background: #111926;
+
+}
+/* bimwe byapfukiranye ibindi */
