@@ -90,5 +90,36 @@ top: 0px;
 >>>>>>> main
 
 }
+img
+{
+    /* Frame 8 */
 
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 597px;
+height: 1002px;
+left: 821px;
+top: -10px;
+
+
+
+/* Rectangle 4 */
+
+width: 577px;
+height: 982px;
+
+background: url(Rhonah_20221015_145218-removebg-preview.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
 
