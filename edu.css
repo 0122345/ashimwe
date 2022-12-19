@@ -4,6 +4,9 @@ html{
 body{
     background-image: url("junior.jpg");
 }
+ul{
+    list-style-type: none;
+}
 .a1{
     position:  absolute;
     width: 15px;

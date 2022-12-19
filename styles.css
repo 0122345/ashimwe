@@ -5,6 +5,60 @@ body{
 ul{
     list-style-type: none;
 }
+.ashimwe{
+    /* Group 3 */
+
+position: absolute;
+width: 525px;
+height: 154px;
+left: 34px;
+top: 240px;
+
+
+
+/* ASHIMWE, I’m NTWARI FIACRE */
+
+position: absolute;
+width: 525px;
+height: 154px;
+left: 34px;
+top: 240px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 64px;
+line-height: 77px;
+
+color: #C32865;
+
+
+}
+.fifi{
+    /* fiacre & ntwari*/
+position: absolute;
+width: 525px;
+height: 154px;
+left: auto;
+top: 340px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 64px;
+line-height: 77px;
+}
+.vid{
+/* 🦆 icon "media play" */
+
+position: absolute;
+width: 46.31px;
+height: 53px;
+left: 291px;
+top: 745px;
+
+}
+
 .a1{
     position:  absolute;
     width: 15px;
@@ -82,8 +136,6 @@ top: -10px;
 
 width: 577px;
 height: 982px;
-
-background: url("fiacre.jpg");
 
 /* Inside auto layout */
 flex: none;
