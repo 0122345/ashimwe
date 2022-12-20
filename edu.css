@@ -2,7 +2,10 @@ html{
     padding: 0;
 }
 body{
-    background-image: url("junior.jpg");
+    background-image: url("tomy-boy-.jpg");
+    background-repeat: no-repeat;
+    background-size: 1540px 982px;
+
 }
 ul{
     list-style-type: none;

@@ -1,6 +1,8 @@
 body{
     background-image: url("map.jpg");
-}
+    background-repeat: no-repeat;
+    background-size:1553px 982px;
+ }
 ul{
     list-style-type:  none;
 }
