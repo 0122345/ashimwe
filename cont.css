@@ -1,5 +1,5 @@
 body{
-    background-image: url("map.jpg");
+    background-image: url("1000_locations.jpg");
     background-repeat: no-repeat;
     background-size:1553px 982px;
  }
@@ -64,40 +64,23 @@ top: 237px;
 background: #2F2F2F;
 
 }
-.msgbox{
-    /* Frame 4 */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 13px 16px;
-
-position: absolute;
-width: 416px;
-height: 204px;
-left: 806px;
-top: 353px;
-
-background: #2F2F2F;
-}
 #con{
 position: absolute;
-width: 272px;
-height: 70px;
+width: 265px;
+height: 60px;
 left: 819px;
 top: 744px;
 
 background: #FF2642;
 
 }
-#index{
+/* #index{
     position:  absolute;
     width: 15px;
     height: 15px;
     left: 1442px;
     top: 262px;
-}
+} */
 #education{
     position:  absolute;
     width: 15px;
@@ -150,3 +133,83 @@ top: 43px;
     /* display: inline;
     display: table-row; */
 }
+.a1{
+    position:  absolute;
+    width: 15px;
+    height: 15px;
+    left: 1442px;
+    top: 262px;
+}
+.a2{
+    position:  absolute;
+    width: 15px;
+    height: 15px;
+    left: 1442px;
+    top: 314px;
+}
+.a3{
+    position:  absolute;
+    width: 15px;
+    height: 15px;
+    left: 1442px;
+    top: 374px;
+}
+.a4{
+    position:  absolute;
+    width: 15px;
+    height: 15px;
+    left: 1442px;
+    top: 374px;
+}
+.a5{
+    position:  absolute;
+    width: 15px;
+    height: 15px;
+    left: 1442px;
+    top: 427px;
+}
+.labels-te1{
+position: absolute;
+width: 298px;
+height: 55px;
+left: 806px;
+top: 237px;
+background: #2F2F2F;
+ 
+}
+.te-em{
+
+position: absolute;
+width: 250px;
+height: 57px;
+left: 1128px;
+top: 235px;
+background: #2F2F2F;
+
+}
+
+.labels-te2{
+position: absolute;
+width: 455px;
+height: 66px;
+left: 809px;
+top: 333px;
+
+background: #2F2F2F;
+
+}
+.msgbox{
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 13px 16px;
+    text-align: start;
+    position: absolute;
+    width: 400px;
+    height: 204px;
+    left: 806px;
+    top: 445px;
+    
+    background: #2F2F2F; 
+    }

@@ -1,5 +1,9 @@
-
+html{
+    padding: 0;
+    margin: 0;
+}
 body{
+
     background-color: #333333;
 }
 ul{
@@ -51,7 +55,7 @@ position: absolute;
 width: 46.31px;
 height: 53px;
 left: 291px;
-top: 745px;
+top: 710px;
 
 }
 
@@ -59,7 +63,7 @@ top: 745px;
     position:  absolute;
     width: 15px;
     height: 15px;
-    left: 1442px;
+    left: 1120px;
     top: 262px;
 }
 .a2{
@@ -107,36 +111,52 @@ left: 1414px;
 top: 43px;
 
 } 
- .bottom{
-    position: absolute;
-    left: 1371px;
-    top: 900px;
-    display: inline;
-    display: table-row;
-} 
+ #face{
+   /* 🦆 icon "facebook" */
+position: absolute;
+left: 1051px;
+top: 1003px;
+ 
+ }
+ #goog{
+  /* 🦆 icon "google" */
+position: absolute;
+left: 1207px;
+top: 1002px;
 
-
+ }
+#inst{
+/* 🦆 icon "instagram" */
+position: absolute;
+left: 1129px;
+top: 1003px;
+}
+ #linked{
+position: absolute;
+left: 1355px;
+top: 1004px;
+}
+#twi{
+    /* 🦆 icon "twitter" */
+position: absolute;
+left: 1269px;
+top: 1003px;
+}
 img
 {
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 10px;
-gap: 10px;
-
 position: absolute;
 width: 597px;
 height: 1002px;
 left: 821px;
 top: -10px;
 
-width: 577px;
-height: 982px;
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
 }
-
+.line{ 
+position: absolute;
+width: 200.5px;
+height: 0px;
+left: 0px;
+top: 772px;
+border: 6px solid #FFFEFE;
+}
+ 
