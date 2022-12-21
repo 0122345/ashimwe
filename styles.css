@@ -63,7 +63,7 @@ top: 710px;
     position:  absolute;
     width: 15px;
     height: 15px;
-    left: 1120px;
+    left: 1442px;
     top: 262px;
 }
 .a2{
@@ -115,32 +115,32 @@ top: 43px;
    /* 🦆 icon "facebook" */
 position: absolute;
 left: 1051px;
-top: 1003px;
+top:  900px;
  
  }
  #goog{
   /* 🦆 icon "google" */
 position: absolute;
 left: 1207px;
-top: 1002px;
+top:  900px;
 
  }
 #inst{
 /* 🦆 icon "instagram" */
 position: absolute;
 left: 1129px;
-top: 1003px;
+top:  900px;
 }
  #linked{
 position: absolute;
 left: 1355px;
-top: 1004px;
+top:  900px;
 }
 #twi{
     /* 🦆 icon "twitter" */
 position: absolute;
 left: 1269px;
-top: 1003px;
+top:  900px;
 }
 img
 {
