@@ -5,8 +5,7 @@ body{
 
 }
 ul{
-    list-style-type: style type none;
-     
+    list-style-type:none;
 }
 .a1{
     position:  absolute;
@@ -90,4 +89,35 @@ top: 43px;
  position: absolute;
  left: 1269px;
  top:  900px;
+ }
+ .web{ 
+
+position: absolute;
+width: 165.61px;
+height: 109.99px;
+left:  135.33px;
+top: 299.99px;
+
+ 
+
+ }
+ .pro{
+/* 🦆 icon "code" */
+
+position: absolute;
+width: 106.01px;
+height: 80.24px;
+left: 618.98px;
+top: 298.02px;
+
+ }
+ .mobile{
+ /* 🦆 icon "phone apps" */
+
+position: absolute;
+width: 46.09px;
+height: 96.03px;
+left: 1033.98px;
+top: 303.44px;
+
  }
