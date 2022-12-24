@@ -13,15 +13,22 @@
       var name = document.getElementById("name");
       var email = document.getElementById("email");
       var subject = document.getElementById("subject");
+      var message =document.getElementById("")
    
          if(name.value ==""||email.value==""){
           alert("NO BLANK VALUE ALLOWED");
           return false;
-         }  
+         }
         else{
           true;
         }
-         
+         if(sub.value ==""||message.value==""){
+          alert("BOTH SUBJECT AND MESSAGE ARE ESSENTIAL TO CONTINUE !!");
+          return false;
+         }
+         else{
+          true;
+         }
     }
 
    </script>
@@ -151,14 +158,14 @@
             top: 235px;
             background: #2F2F2F;"/>
           <div class="labels-te2">
-          <input id="subject" type="text"placeholder="subject(optional)" required  style="width: 455px;
+          <input id="subject" type="text"placeholder="subject(optional)"  style="width: 455px;
           height: 66px;
           left: 809px;
           top: 333px;
           background: #2F2F2F;"/>
           </div>     
          <div class="msgbox">
-         <input type="<textarea rows="" cols="" placeholder="message" style="
+         <input id="msgbox" type="<textarea rows="" cols="" placeholder="message" style="
          background: #2F2F2F; "></textarea>
          </div>
     
