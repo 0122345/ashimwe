@@ -1,3 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+@media  only screen and (max-width:414px) {
+    .navi,.dropdown, .cont, .pp, .web,.pro, .mobile, #icu{
+        display: flex;
+        width: 100%;
+        height: fit-content;
+    }
+}
+@media  only screen and (max-width:800px) {
+    .navi,.dropdown, .cont, .pp, .web,.pro, .mobile, #icu{
+        display: flex;
+        width: 100%;
+        height: fit-content;
+    }
+}
 body{
     background-image: url("junior.jpg");
     background-repeat:no-repeat;
@@ -6,6 +23,23 @@ body{
 }
 ul{
     list-style-type:none;
+}
+.pp{
+/* MY SPECIALIZATION */
+
+position: absolute;
+width: 353.46px;
+height: 35.45px;
+left: 103.33px;
+top: 111.21px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #FF2759;
 }
 .a1{
     position:  absolute;

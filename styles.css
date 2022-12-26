@@ -49,16 +49,33 @@ font-size: 64px;
 line-height: 77px;
 }
 .vid{
-/* 🦆 icon "media play" */
 
 position: absolute;
 width: 46.31px;
 height: 53px;
-left: 291px;
+left: 250px;
 top: 710px;
+}
+#watch{
+    /* watch Resume */
+
+position: absolute;
+width: 233px;
+height: 39px;
+left: 392px;
+top: 730px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #FFFFFF;
+
 
 }
-
 .a1{
     position:  absolute;
     width: 15px;
