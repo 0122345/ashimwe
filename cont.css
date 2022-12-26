@@ -1,30 +1,53 @@
+*{
+    /* margin:0;
+    padding: 0; */
+    box-sizing: border-box;
+    display: flexbox;
+    flex-direction: column;
+     
+}
 
 body{
     background-image: url("1000_locations.jpg");
     background-repeat: no-repeat;
-    background-size:1553px 982px;
+    background-size:1553px 982px; 
  }
 ul{
     list-style-type:  none;
 }
+  @media only screen and (max-width:800px) { 
+    /* For tablets: */
+    .navi, .dropdown, .rest {
+        width: 100%;
+        height: 100px;
+      }
+  } 
+  @media only screen and (max-width:390px) {
+    /* For mobile phones: */
+    .navi, .dropdown, .rest {
+      width: 100%;
+      height: 100px;
+    }
+  }
 .sp{
-position: absolute;
+    display: flexbox;
+/* position: absolute;  */
 width: 391px;
 height: 58px;
 left: 131px;
 top: 132px;
-
+/* 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
 font-size: 48px;
 line-height: 58px;
- 
+  */
 color: #27FF59;
 }
 .my{
-
-position: absolute;
+display: flexbox;
+ /* position: absolute;  */
 width: 563px;
 height: 48px;
 left: 116px;
@@ -40,7 +63,7 @@ color: #FFFFFF;
 }
 .para{
 
-position: absolute;
+/* position: absolute; */
 width: 330px;
 height: 48px;
 left: 124px;
@@ -56,7 +79,9 @@ color: #FFFFFF;
 
 }
 .labels{
-position: absolute;
+display: flex;
+
+/* position: absolute; */
 width: 298px;
 height: 55px;
 left: 806px;
@@ -66,7 +91,9 @@ background: #2F2F2F;
 
 }
 #con{
-position: absolute;
+     display: flexbox; 
+     
+ /* position: absolute;   */
 width: 265px;
 height: 60px;
 left: 819px;
@@ -75,36 +102,29 @@ top: 744px;
 background: #FF2642;
 
 }
-/* #index{
-    position:  absolute;
-    width: 15px;
-    height: 15px;
-    left: 1442px;
-    top: 262px;
-} */
 #education{
-    position:  absolute;
+    /* position:  absolute; */
     width: 15px;
     height: 15px;
     left: 1442px;
     top: 314px;
 }
 #experience{
-    position:  absolute;
+    /* position:  absolute; */
     width: 15px;
     height: 15px;
     left: 1442px;
     top: 374px;
 }
 #blog{
-    position:  absolute;
+    /* position:  absolute; */
     width: 15px;
     height: 15px;
     left: 1442px;
     top: 374px;
 }
 #contact{
-    position:  absolute;
+    /* position:  absolute; */
     width: 15px;
     height: 15px;
     left: 1442px;
@@ -112,7 +132,7 @@ background: #FF2642;
 }
 
 .a6{
-    position:  absolute;
+    /* position:  absolute; */
     width: 15px;
     height: 15px;
     left: 1442px;
@@ -135,21 +155,21 @@ top: 43px;
     display: table-row; */
 }
 .a1{
-    position:  absolute;
+    /* position:  absolute; */
     width: 15px;
     height: 15px;
     left: 1442px;
     top: 262px;
 }
 .a2{
-    position:  absolute;
+    /* position:  absolute; */
     width: 15px;
     height: 15px;
     left: 1442px;
     top: 314px;
 }
 .a3{
-    position:  absolute;
+    /* position:  absolute; */
     width: 15px;
     height: 15px;
     left: 1442px;
@@ -163,14 +183,14 @@ top: 43px;
     top: 374px;
 }
 .a5{
-    position:  absolute;
+    /* position:  absolute; */
     width: 15px;
     height: 15px;
     left: 1442px;
     top: 427px;
 }
 .labels-te1{
-position: absolute;
+/* position: absolute; */
 width: 298px;
 height: 55px;
 left: 806px;
@@ -180,7 +200,7 @@ background: #2F2F2F;
 }
 .te-em{
 
-position: absolute;
+/* position: absolute; */
 width: 250px;
 height: 57px;
 left: 1128px;
@@ -190,7 +210,7 @@ background: #2F2F2F;
 }
 
 .labels-te2{
-position: absolute;
+/* position: absolute; */
 width: 455px;
 height: 66px;
 left: 809px;
@@ -206,42 +226,45 @@ background: #2F2F2F;
     align-items: flex-start;
     padding: 13px 16px;
     text-align: start;
-    position: absolute;
+    float: left;
+    margin: left 806px;
+    margin: top 445px;
+    /* position: absolute; */
     width: 400px;
     height: 204px;
-    left: 806px;
-    top: 445px;
+    /* left: 806px;
+    top: 445px; */
     
     background: #2F2F2F; 
     }
     #face{
         /* 🦆 icon "facebook" */
-     position: absolute;
+     /* position: absolute; */
      left: 1051px;
      top:  900px;
       
       }
       #goog{
        /* 🦆 icon "google" */
-     position: absolute;
+     /* position: absolute; */
      left: 1207px;
      top:  900px;
      
       }
      #inst{
      /* 🦆 icon "instagram" */
-     position: absolute;
+     /* position: absolute; */
      left: 1129px;
      top:  900px;
      }
       #linked{
-     position: absolute;
+     /* position: absolute; */
      left: 1355px;
      top:  900px;
      }
      #twi{
          /* 🦆 icon "twitter" */
-     position: absolute;
+     /* position: absolute; */
      left: 1269px;
      top:  900px;
      }
@@ -260,8 +283,8 @@ background: #2F2F2F;
   
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
-    display: none;
-    position: absolute;
+    /* display: flexbox; */
+    position: absolute; 
     background-color: black;
     right: 0px;
      
@@ -286,3 +309,4 @@ background: #2F2F2F;
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #2F2F2F;}
+ 
