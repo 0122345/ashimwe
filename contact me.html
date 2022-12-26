@@ -8,9 +8,27 @@
     <link rel="stylesheet" href="cont.css"/>
     <!-- <script defer src="first.js"></script> -->
    <script type="text/javascript">
-    function myFunction(x) {
-  x.classList.toggle("change");
-}
+   function clear(){
+    
+    if(typeof(storage) !== "not possible"){
+      if (localstorage.clear){
+      const  dt = localstorage.getItem(",");
+       dt = value(localstorage.clear);
+      alert("we've got your info");
+    }
+    else{
+      localstorage.clear =="nothing";
+    }
+    document.getElementById("form").innerHTML = "your information was  received";
+   }
+   else{
+    document.getElementById("form").innerHTML = "we haven't received your info"
+   }
+  }
+    function clear(){
+   window.localstorage.clear();
+    }
+
     function validate()
     {
       var name = document.getElementById("name");
@@ -146,7 +164,7 @@
             +250 790 01 861
      </p>
      
-     <form id="form" onsubmit="return validate()"     method="get"action="contact me.html">
+     <form id="form" onsubmit="return validate()" >
           <input type="text" id="name" placeholder="NAME" style="
           position:absolute;   
           width: 298px;
@@ -173,7 +191,7 @@
          background: #2F2F2F; "></textarea>
          </div>
     
-          <button id="con" type="submit" > CONTACT ME</button>
+          <button  onclick="clear()" id="con" type="submit" > CONTACT ME</button>
      </form>
      <p style="/* @ntwarifiacre2022 */
 
