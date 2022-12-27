@@ -60,12 +60,6 @@ width: 70px;
 height: 39px;
 left: 1141px;
 top: 452px;
-/* 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 39px; */
 
 color: #FFFFFF;
 }
@@ -75,13 +69,7 @@ width: 70px;
 height: 39px;
 left: 1148px;
 top: 656px;
-
-/* font-family: 'Inter';
-/* font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 39px;  */
-
+ 
 color: #FFFFFF;
 
 }
@@ -234,7 +222,7 @@ top: 43px;
      position: absolute;
      background-color: black;
      right:0px;
-     min-width: 160px;
+     min-width: 360px;
      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
      z-index: 1;
    }
@@ -256,9 +244,13 @@ top: 43px;
    /* Change the background color of the dropdown button when the dropdown content is shown */
    .dropdown:hover .dropbtn {background-color: #2F2F2F;}
  
-
-
-
+   .ccc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+    
 
 
 
