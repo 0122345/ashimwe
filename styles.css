@@ -9,6 +9,45 @@ body{
 ul{
     list-style-type: none;
 }
+
+@media  only screen and (max-width:414px) {
+    body{
+        background-color:#190e0e;
+        width: 100%;
+    }
+    .right {
+        width: 50%;
+
+    }
+    .left{
+        float: left;
+        width: 50%;
+    }
+    .navi,.dropdown {
+        display: flex;
+        width: 30%;
+        height: fit-content;
+    }
+}
+@media  only screen and (max-width:800px) {
+    body{
+        background-color:#190e0e;
+        width: 100%;
+    }
+    .right {
+        width: 50%;
+
+    }
+    .left{
+        float: left;
+        width: 50%;
+    }
+    .navi,.dropdown {
+        display: flex;
+        width: 30%;
+        height: fit-content;
+    } 
+}
 .ashimwe{
     /* Group 3 */
 position: absolute;

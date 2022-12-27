@@ -2,14 +2,64 @@
     box-sizing: border-box;
 }
 @media  only screen and (max-width:414px) {
-    .navi,.dropdown, .cont, .pp, .web,.pro, .mobile, #icu{
+    .body{
+        width:100%;
+        height:100%;
+        margin:0;
+    }
+      .web{
+        width: 33.333%;
+      }
+      .pro{
+        width: 33.33%;
+      }
+      .mobile{
+        width: 100%;
+      }
+    .navi,.dropdown, .cont, .pp,#icu{
         display: flex;
         width: 100%;
         height: fit-content;
     }
 }
 @media  only screen and (max-width:800px) {
-    .navi,.dropdown, .cont, .pp, .web,.pro, .mobile, #icu{
+        .body{
+            width:100%;
+            height:100%;
+            margin:0;
+            width: 100%;
+        }
+          .web{
+            width: 33.333%;
+          }
+          .pro{
+            width: 33.33%;
+          }
+          .mobile{
+            width: 100%;
+          }
+        .navi,.dropdown, .cont, .pp,#icu{
+            display: flex;
+            width: 100%;
+            height: fit-content;
+        }
+}
+@media  only screen and (max-width:1024px) {
+    .body{
+        width:100%;
+        height:100%;
+        margin:0;
+    }
+      .web{
+        width: 33.333%;
+      }
+      .pro{
+        width: 33.33%;
+      }
+      .mobile{
+        width: 100%;
+      }
+    .navi,.dropdown, .cont, .pp,#icu{
         display: flex;
         width: 100%;
         height: fit-content;

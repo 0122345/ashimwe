@@ -7,6 +7,20 @@ body{
 ul{
     list-style-type:  none;
 }
+@media  only screen and (max-width:414px) {
+    .navi,.dropdown,.rest  {
+        display: flex;
+        width: 100%;
+        height: fit-content;
+    }
+}
+@media  only screen and (max-width:800px) {
+    .navi,.dropdown, .rest {
+        display: flex;
+        width: 100%;
+        height: fit-content;
+    }
+}
 .des{
 position: absolute;
 width: 550px;
