@@ -1,11 +1,12 @@
-![](my_icon.jpg)
+# My portfolio
+
+This is a my logo
+
+![my logo](my_icon.jpg)
 
        MY PORTFOLIO
 
-### THIS IS ACTUAL MY FIRST  README AS WELL AS PORTIFOLIO
-
-
-
+## THIS IS ACTUAL MY FIRST  README AS WELL AS PORTIFOLIO
 
 1.IT's consist of almost six html pages,including:
 .index
@@ -26,9 +27,8 @@
 |blog|blo |no js |
 |contact me| cont| built in js|
 
-
 ### IF YOU WANT TO CHECK IT YOU CAN
 
+.[visit website](https://0122345.github.io/ashimwe/)
 
-[visit website](https://0122345.github.io/ashimwe/)
-
+ .[Or here](https://ntwarifiacre-port.vercel.app/)
