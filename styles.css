@@ -73,6 +73,12 @@ color: #C32865;
 
 
 }
+.ccc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 .fifi{
     /* fiacre & ntwari*/
 position: absolute;
