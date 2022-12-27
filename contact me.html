@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" id="myWindow">
+<html lang="en" >
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,33 +8,33 @@
     <link rel="stylesheet" href="cont.css"/>
     <!-- <script defer src="first.js"></script> -->
    <script type="text/javascript">
-   function clear(){
+   function myfunc(event){
+    event.preventDefault();
+    var name = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+      var subject = document.getElementById("subject").value;
+      var msgbox = document.getElementById("msgbox").value;
     
-    if(typeof(storage) !== "not possible"){
-      if (localstorage.clear){
-      const  dt = localstorage.getItem(",");
-       dt = value(localstorage.clear);
-      alert("we've got your info");
-    }
-    else{
-      localstorage.clear =="nothing";
-    }
-    document.getElementById("form").innerHTML = "your information was  received";
-   }
-   else{
-    document.getElementById("form").innerHTML = "we haven't received your info"
-   }
-  }
-    function clear(){
-   window.localstorage.clear();
-    }
+      localstorage.getItem('Is_name',name);
+     localstorage.getItem('Is_email',email);
+     localstorage.getItem('Is_subject',subject);
+     localstorage.getItem('Is_msgbox',msgbox);
+      
 
+     localstorage.setItem('Is_name',name);
+     localstorage.setItem('Is_email',email);
+     localstorage.setItem('Is_subject',subject);
+     localstorage.setItem('Is_msgbox',msgbox);
+   }
+     
+
+    
     function validate()
     {
       var name = document.getElementById("name");
       var email = document.getElementById("email");
       var subject = document.getElementById("subject");
-      var msgbox =document.getElementById("msgbox")
+      var msgbox =document.getElementById("msgbox");
    
          if(name.value ==""||email.value==""){
           alert("NO BLANK VALUE ALLOWED");
@@ -166,7 +166,7 @@
             +250 790 01 861
      </p>
      
-     <form id="form" onsubmit="return validate()" >
+     <form id="form" onsubmit="myfunc(event)" >
           <input type="text" id="name" placeholder="NAME" style="
           position:absolute;   
           width: 298px;
@@ -189,11 +189,11 @@
           background: #2F2F2F;"/>
           </div>     
          <div class="msgbox">
-         <input id="msgbox" type="<textarea rows="" cols="" placeholder="message" style="
+         <input id="msgbox" type="<textarea rows="" cols="" placeholder="message" required style="
          background: #2F2F2F; "></textarea>
          </div>
     
-          <button  onclick="clear()" id="con" type="submit" > CONTACT ME</button>
+          <button   id="con" type="submit" > CONTACT ME</button>
      </form>
      <p style="/* @ntwarifiacre2022 */
 
