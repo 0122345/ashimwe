@@ -8,24 +8,7 @@
     <link rel="stylesheet" href="cont.css"/>
     <!-- <script defer src="first.js"></script> -->
    <script type="text/javascript">
-   function validate(){
-    event.preventDefault();
-    var name = document.getElementById("name").value;
-      var email = document.getElementById("email").value;
-      // var gender = document.getElementById("gender");
-      var subject = document.getElementById("subject").value;
-      var msgbox = document.getElementById("msgbox").value;
-        
-      // temp_gender.checked ? gender ="male" : gender ="female";
-
-     localstorage.setItem('Is_name', name);
-     localstorage.setItem('Is_email', email);
-     localstorage.setItem('Is_subject', subject);
-     localstorage.setItem('Is_msgbox', msgbox);
-   }
-     
-
-    
+  
     function validate()
     {
       var name = document.getElementById("name");
@@ -49,6 +32,21 @@
          }
     }
 
+ function myfunc(event){
+    event.preventDefault();
+    var name = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+      
+      var subject = document.getElementById("subject").value;
+      var msgbox = document.getElementById("msgbox").value;
+        
+    
+
+     localstorage.setItem('Is_name', name);
+     localstorage.setItem('Is_email', email);
+     localstorage.setItem('Is_subject', subject);
+     localstorage.setItem('Is_msgbox', msgbox);
+   }
    </script>
 </head>
 <div class="navi">
@@ -112,7 +110,7 @@
     </ul>
     </div>
 <body>
-  <div class=" dropdown" onclick="myfuntion(this)"> 
+  <div class=" dropdown"> 
     <div class="listing">
   <button class="dropbtn">
     <svg xmlns="http://www.w3.org/2000/svg" width="48.4" height="44" fill="#fff" class="bi bi-list" viewBox="0 0 16 16">
