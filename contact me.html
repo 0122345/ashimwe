@@ -12,15 +12,14 @@
     event.preventDefault();
     var name = document.getElementById("name").value;
       var email = document.getElementById("email").value;
-      var gender = document.getElementById("gender");
+      // var gender = document.getElementById("gender");
       var subject = document.getElementById("subject").value;
       var msgbox = document.getElementById("msgbox").value;
         
-      temp_gender.checked ? gender ="male" : gender ="female";
+      // temp_gender.checked ? gender ="male" : gender ="female";
 
      localstorage.setItem('Is_name', name);
      localstorage.setItem('Is_email', email);
-     localstorage.setItem('Is_gender', gender);
      localstorage.setItem('Is_subject', subject);
      localstorage.setItem('Is_msgbox', msgbox);
    }
@@ -187,8 +186,8 @@
           background: #2F2F2F;"/>
           </div>     
          <div class="msgbox">
-         <label> gender<label> <input type="radio"  id="gender" name="gender"required/> male
-          <input type="radio" name="gender"required/> female
+         <!-- <label> gender<label> <input type="radio"  id="gender" name="gender"required/> male
+          <input type="radio" name="gender"required/> female -->
          <input id="msgbox" type="<textarea rows="" cols="" placeholder="message" required style="
          background: #2F2F2F; "></textarea>
          </div>
