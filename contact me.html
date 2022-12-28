@@ -1,30 +1,28 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en" id="myWindow">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>contact me</title>
     <link rel="stylesheet" href="cont.css"/>
     <!-- <script defer src="first.js"></script> -->
    <script type="text/javascript">
-   function myfunc(event){
+   function validate(){
     event.preventDefault();
     var name = document.getElementById("name").value;
       var email = document.getElementById("email").value;
+      var gender = document.getElementById("gender");
       var subject = document.getElementById("subject").value;
       var msgbox = document.getElementById("msgbox").value;
-    
-      localstorage.getItem('Is_name',name);
-     localstorage.getItem('Is_email',email);
-     localstorage.getItem('Is_subject',subject);
-     localstorage.getItem('Is_msgbox',msgbox);
-      
+        
+      temp_gender.checked ? gender ="male" : gender ="female";
 
-     localstorage.setItem('Is_name',name);
-     localstorage.setItem('Is_email',email);
-     localstorage.setItem('Is_subject',subject);
-     localstorage.setItem('Is_msgbox',msgbox);
+     localstorage.setItem('Is_name', name);
+     localstorage.setItem('Is_email', email);
+     localstorage.setItem('Is_gender', gender);
+     localstorage.setItem('Is_subject', subject);
+     localstorage.setItem('Is_msgbox', msgbox);
    }
      
 
@@ -166,7 +164,7 @@
             +250 790 01 861
      </p>
      
-     <form id="form" onsubmit="myfunc(event)" >
+     <form id="form" onsubmit="return validate()" onsubmit="myfunct(event)" >
           <input type="text" id="name" placeholder="NAME" style="
           position:absolute;   
           width: 298px;
@@ -189,6 +187,8 @@
           background: #2F2F2F;"/>
           </div>     
          <div class="msgbox">
+         <label> gender<label> <input type="radio"  id="gender" name="gender"required/> male
+          <input type="radio" name="gender"required/> female
          <input id="msgbox" type="<textarea rows="" cols="" placeholder="message" required style="
          background: #2F2F2F; "></textarea>
          </div>
