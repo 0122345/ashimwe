@@ -1,12 +1,8 @@
-/* *{
-     margin:0;
-    padding: 0; 
-    box-sizing: border-box;
-    display: flexbox;
-    flex-wrap: wrap;
-     
-} */
-
+ html{
+    width:0;
+    margin: 0;
+    padding: 0;
+ }
 body{
     background-image: url("1000_locations.jpg");
     background-repeat: no-repeat;
@@ -14,6 +10,64 @@ body{
  }
 ul{
     list-style-type:  none;
+}
+#line{
+    
+     
+    position: fixed;
+    width: 9px;
+    height: 30px;
+    left: 451px;
+    top: 25px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px; 
+  
+    color: #FFFFFF;
+}
+#address{
+     
+    display: flex;
+     position:  fixed;   
+  width: 209px;
+  height: 90px;
+  left: 484px;
+  top: 28px;
+  
+   font-family: 'Geneva';
+  
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;  
+  /* identical to box height */
+  
+  color: #40c6de;
+  
+}
+#number{
+    position: fixed; 
+     width: 250px;
+    height: 23px;
+    left: 325px;
+    top: 26px;
+    
+      font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+      margin: 0;
+    color: #FFFFFF;
+}
+#izina{
+    padding-left: 16px;
+    position: relative;
+    top: 26px;
+    color: blue;
+    font-size:larger;
 }
  
   @media only screen and (max-width:390px) {
@@ -76,26 +130,17 @@ ul{
     top: 237px;
     background: #2F2F2F;
   }
-  .em{
-    position:  absolute; 
-          width: 250px;
-            height: 57px;
-            left: 1128px;
-            top: 235px;
-            background: #2F2F2F
-  }
 .sp{
-    display: flexbox;
- position: absolute;  
+   
  width: 391px;
 height: 58px;
-left: 131px;
-top: 132px;
+left: 806px;
+top: 237px;
 
 font-family: 'Inter';
 font-style: normal;
-font-weight: 700;
-font-size: 48px;
+ font-weight: 500; 
+font-size: 44px;
 line-height: 58px;
 color: #27FF59;
 }
@@ -155,34 +200,6 @@ top: 744px;
 
 background: #FF2642;
 
-}
-#education{
-     position:  absolute; 
-   width: 15px;
-    height: 15px;
-    left: 1442px;
-    top: 314px;
-}
-#experience{
-    position:  absolute; 
-   width: 15px;
-    height: 15px;
-    left: 1442px;
-    top: 374px;
-}
-#blog{
-    position:  absolute; 
-    width: 15px;
-    height: 15px;
-    left: 1442px;
-    top: 374px;
-}
-#contact{
-     position:  absolute;
-    width: 15px;
-    height: 15px;
-    left: 1442px;
-    top: 427px;
 }
 
 .a6{
