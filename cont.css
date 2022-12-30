@@ -2,7 +2,6 @@
     width:100%;
     margin: 0;
     padding: 0;
-     /* overflow: hidden;  */
  }
 body{
   width: 100%;
@@ -14,63 +13,144 @@ ul{
     list-style-type:  none;
     
 }
-@media only screen and (max-width:390px) {
+@media only screen and (max-width: 414px) {
   /* For mobile phones:  */
   body{
+     
       width: 100%;
-      height: 100%;
       margin: 0;
       padding: 0;
   }
-  .rest{
-      width: 65%;
-      height: 100%;
+  #ico{
+    position: absolute;
+    padding: 2px 2px 2px 2px;
+    bottom: 0;
+  }
+  .left{
+      width: 100%;
       margin:0;
   }
-  .navi, .dropdown {
-    width:auto;
-    height: auto;
+  .right{
+    width:75%;
+    align-items: center;
+  }
+  #ijambo{
+    position: absolute;
+    bottom: 0px;
+    
+  }
+  .a1 ,.a2, .a3,.a4,.a5{
+    visibility: visible;
+  }
+   form{
+   width: 100%;
+   margin:0;
+   padding:0;
+     float:center;
+    padding-left: 5pc;
+    padding-right: 5pc;
+  }  
+  #izina{
+    position: fixed;
+    top:0;
+    padding-left: 2px;
+  }
+  #line, #number,#address{
+    visibility: hidden;
+  }
+  .listing{
+    position: fixed;
+    top:8px;
+    padding-right: 2px;
+  }
+  .dropdown-content {
+    max-width: 10px;
+    right:1px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: -3;
   }
 }
 @media only screen and (max-width:800px) {
-  body{
-      width: 100%;
-      height: 100%;
-      margin: 0;
-      padding: 0;
-  }
-  .rest{
-      width: 65%;
-      height: 100%;
-      margin:0;
-  }
-  .navi, .dropdown {
-      width:auto;
-      height: auto;
-    }
+   /* For mobile ipads:  */
+   body{
+    width: 100%;
+    height: 1180px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url("1000_locations.jpg");
+    background-repeat: no-repeat;
+    background-size:820px 1180px;
+}
+#ico{
+  position: absolute;
+  padding: 2px 2px 2px 2px;
+  bottom: 0;
+}
+.left{
+    width: 100%;
+    margin:0;
+}
+.right{
+  width:75%;
+  align-items: center;
+}
+#ijambo{
+  position: absolute;
+  bottom: 0px;
+  
+}
+.a1 ,.a2, .a3,.a4,.a5{
+  visibility: visible;
+}
+ form{
+ width: 100%;
+ margin:0;
+ padding:0;
+   float:center;
+  padding-left: 5pc;
+  padding-right: 5pc;
+}  
+#izina{
+  position: fixed;
+  top:0;
+  padding-left: 2px;
+}
+#line, #number,#address{
+  visibility: hidden;
+}
+.listing{
+  position: fixed;
+  top:8px;
+  padding-right: 2px;
+}
+.dropdown-content {
+  max-width: 10px;
+  right:1px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: -3;
+}
 }
 @media only screen and (max-width:1024px) {
   body{
-      width: 50%;
-      height: 100%;
-      margin: 0;
-      padding: 0;
-  }
-  .rest{
-    display: flex;
-    flex-direction: column;
-      
-  }
-  .navi, .dropdown {
-      width:auto;
-      height: auto;
-    }
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.right, .left{
+    width: 100%;
+    margin:0;
+}
+ .navi, .rest {
+  width:auto;
+  height: auto;
+}
 }
  .navi{
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   color:#fff;
    
   font-family: 'poppins';
@@ -90,7 +170,7 @@ ul{
    font-size: 1.2em;
   color: #FFFFFF;
   text-align: left;
-  position:  absolute;
+  position:  fixed;
   padding: 2pc;
   bottom: 0px;
 }
@@ -102,24 +182,23 @@ ul{
   padding-right: 3pc;
    
 }
-.listing{
-  padding-right: 2pc;
-   top: 100px;;
-
-}
+ .dropbtn{
+  right: 0;
+ }
 .msgbox{
 
   display: flex;
   flex-direction: row;
   align-items: flex-start;
    margin: 4px 4px 4px 4px;
+   padding-top: 16px;
   text-align: start;   
-   width: 548px; 
-   height: 174px; 
+   width: 394px; 
+   height: 165px; 
   left: 806px;
   top: 445px; 
   
-  background: #2F2F2F; 
+  background:  #232628; 
   } 
   #con{
   
@@ -129,31 +208,31 @@ ul{
    left: 909px;
    top: 944px;
    margin: 4px;
-   background: #FF2642;
+   background:  #A91957;
    cursor: pointer;
   }
   #subject{
-    width: 548px;
-   height: 66px;
+    width: 389px;
+   height: 30px;
    left: 806px;
    top: 333px;
-   background: #2F2F2F;
+   background: #232628;
    margin: 4px;
  } 
 #name{
-  width: 298px;
-  height: 55px;
+  width: 170.5px;
+  height: 30px;
   left: 806px;
   top: 237px;
-  background: #2F2F2F;
+  background:  #222527;
   margin: 2px 4px 4px 4px;
 }
   #email{
-    width: 250px;
-    height: 57px;
+    width: 200.5px;
+    height: 30px;
     left: 1128px;
     top: 235px;
-    background: #2F2F2F;
+    background:  #232628;
      margin: 0 4px 4px 4px;
   }
 .left{
@@ -170,22 +249,20 @@ ul{
 #sp{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.5em;
-  color:#FF2642;
+  color: #DA4C84;
 }
 .rest{
   display: flex;
   flex-direction: column;
   float: right;
+  cursor: pointer;
   padding-right: 2pc;
   padding-top: 2pc;
-  display: inline;
-  line-break: ;
-  line-height: 143px;
 }
 #ico{
   display:inline-flex;
   float: right;
-  position: absolute;
+  position: fixed;
   margin: 2px;
   padding: 4pc;
   padding-right: 4pc;
@@ -241,6 +318,7 @@ ul{
   left: 1442px;
   top: 262px;
   border-radius: 50%;
+  visibility: collapse;
 }  
 .a2{
   
@@ -249,6 +327,7 @@ ul{
   left: 1442px;
   top: 314px;
   border-radius: 50%;
+  visibility: collapse;
 }
 .a3{
    
@@ -257,6 +336,7 @@ ul{
   left: 1442px;
   top: 374px;
   border-radius: 50%;
+  visibility: collapse;
 }
 .a4{
    
@@ -265,6 +345,7 @@ ul{
   left: 1442px;
   top: 374px;
   border-radius: 50%;
+  visibility: collapse;
 }
 .a5{  
   width: 15px;
@@ -272,6 +353,7 @@ ul{
   left: 1442px;
   top: 427px;
   border-radius: 50%;
+  visibility: collapse;
 }
 
 .a6{
@@ -281,6 +363,7 @@ ul{
   left: 1442px;
   top: 477px;
   border-radius: 50%;
+  background-color: #9C2051;
 }
 
 
