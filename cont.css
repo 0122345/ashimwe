@@ -1,17 +1,350 @@
  html{
-    width:0;
+    width:100%;
     margin: 0;
     padding: 0;
+     /* overflow: hidden;  */
  }
 body{
+  width: 100%;
     background-image: url("1000_locations.jpg");
     background-repeat: no-repeat;
     background-size:1553px 982px; 
  }
 ul{
     list-style-type:  none;
+    
 }
-#line{
+@media only screen and (max-width:390px) {
+  /* For mobile phones:  */
+  body{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+  }
+  .rest{
+      width: 65%;
+      height: 100%;
+      margin:0;
+  }
+  .navi, .dropdown {
+    width:auto;
+    height: auto;
+  }
+}
+@media only screen and (max-width:800px) {
+  body{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+  }
+  .rest{
+      width: 65%;
+      height: 100%;
+      margin:0;
+  }
+  .navi, .dropdown {
+      width:auto;
+      height: auto;
+    }
+}
+@media only screen and (max-width:1024px) {
+  body{
+      width: 50%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+  }
+  .rest{
+    display: flex;
+    flex-direction: column;
+      
+  }
+  .navi, .dropdown {
+      width:auto;
+      height: auto;
+    }
+}
+ .navi{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color:#fff;
+   
+  font-family: 'poppins';
+  font-size: 1em;
+  font-weight: bold;
+} 
+#izina{
+  position: inherit;
+  top:inherit;
+  color: blue;
+  font-family: 'poppins';
+  font-size:1.8em;
+}
+#ijambo{
+  display: flex;
+   font-family: 'poppins';
+   font-size: 1.2em;
+  color: #FFFFFF;
+  text-align: left;
+  position:  absolute;
+  padding: 2pc;
+  bottom: 0px;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  float: right;
+  
+  padding-right: 3pc;
+   
+}
+.listing{
+  padding-right: 2pc;
+   top: 100px;;
+
+}
+.msgbox{
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+   margin: 4px 4px 4px 4px;
+  text-align: start;   
+   width: 548px; 
+   height: 174px; 
+  left: 806px;
+  top: 445px; 
+  
+  background: #2F2F2F; 
+  } 
+  #con{
+  
+   width: 180px;
+   height: 40px;
+   position:initial;
+   left: 909px;
+   top: 944px;
+   margin: 4px;
+   background: #FF2642;
+   cursor: pointer;
+  }
+  #subject{
+    width: 548px;
+   height: 66px;
+   left: 806px;
+   top: 333px;
+   background: #2F2F2F;
+   margin: 4px;
+ } 
+#name{
+  width: 298px;
+  height: 55px;
+  left: 806px;
+  top: 237px;
+  background: #2F2F2F;
+  margin: 2px 4px 4px 4px;
+}
+  #email{
+    width: 250px;
+    height: 57px;
+    left: 1128px;
+    top: 235px;
+    background: #2F2F2F;
+     margin: 0 4px 4px 4px;
+  }
+.left{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  color: #ddd;
+  padding-left: 28px;
+
+  font-family: 'poppins';
+  font-size: 1.8em;
+
+}
+#sp{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5em;
+  color:#FF2642;
+}
+.rest{
+  display: flex;
+  flex-direction: column;
+  float: right;
+  padding-right: 2pc;
+  padding-top: 2pc;
+  display: inline;
+  line-break: ;
+  line-height: 143px;
+}
+#ico{
+  display:inline-flex;
+  float: right;
+  position: absolute;
+  margin: 2px;
+  padding: 4pc;
+  padding-right: 4pc;
+  right: 0px;
+  bottom:0px;
+}
+ /* The container <div> - needed to position the dropdown content */
+ .dropdown {
+     display: flexbox;
+     display: flex;
+     float: right;
+
+       /* position:  absolute; */
+ }
+ 
+ /* Dropdown Content (Hidden by Default) */
+ .dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: black;
+   right:0px;
+   min-width: 360px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+ }
+ 
+ /* Links inside the dropdown */
+ .dropdown-content a {
+   color:white;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+ }
+ 
+ /* Change color of dropdown links on hover */
+ .dropdown-content a:hover {background-color: #ddd;}
+ 
+ /* Show the dropdown menu on hover */
+ .dropdown:hover .dropdown-content {display: block;}
+ 
+ /* Change the background color of the dropdown button when the dropdown content is shown */
+ .dropdown:hover .dropbtn {background-color: #2F2F2F;}
+
+ .ccc{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.a1{
+  width: 15px;
+  height: 15px;
+  left: 1442px;
+  top: 262px;
+  border-radius: 50%;
+}  
+.a2{
+  
+  width: 15px;
+  height: 15px;
+  left: 1442px;
+  top: 314px;
+  border-radius: 50%;
+}
+.a3{
+   
+  width: 15px;
+  height: 15px;
+  left: 1442px;
+  top: 374px;
+  border-radius: 50%;
+}
+.a4{
+   
+  width: 15px;
+  height: 15px;
+  left: 1442px;
+  top: 374px;
+  border-radius: 50%;
+}
+.a5{  
+  width: 15px;
+  height: 15px;
+  left: 1442px;
+  top: 427px;
+  border-radius: 50%;
+}
+
+.a6{
+   
+  width: 15px;
+  height: 15px;
+  left: 1442px;
+  top: 477px;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #name{
+
+          position:absolute;   
+          width: 298px;
+          height: 55px;
+          left: 806px;
+          top: 237px;
+          background: #2F2F2F;
+} */
+/* #email{
+   
+          position:  absolute; 
+          width: 250px;
+            height: 57px;
+            left: 1128px;
+            top: 235px;
+            background: #2F2F2F;
+}
+*/
+/* #line{
     
      
     position: fixed;
@@ -27,8 +360,8 @@ ul{
     line-height: 30px; 
   
     color: #FFFFFF;
-}
-#address{
+} */
+/* #address{
      
     display: flex;
      position:  fixed;   
@@ -44,10 +377,10 @@ ul{
   line-height: 22px;  
   /* identical to box height */
   
-  color: #40c6de;
+  /* color: #40c6de;
   
-}
-#number{
+}  */
+/* #number{
     position: fixed; 
      width: 250px;
     height: 23px;
@@ -69,60 +402,7 @@ ul{
     color: blue;
     font-size:larger;
 }
- 
-  @media only screen and (max-width:390px) {
-    /* For mobile phones: */
-    body{
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    .rest{
-        width: 65%;
-        height: 100%;
-        margin:0;
-    }
-    .navi, .dropdown {
-      width:auto;
-      height: auto;
-    }
-  }
-  @media only screen and (max-width:800px) {
-    body{
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    .rest{
-        width: 65%;
-        height: 100%;
-        margin:0;
-    }
-    .navi, .dropdown {
-        width:auto;
-        height: auto;
-      }
-  }
-  @media only screen and (max-width:1024px) {
-    body{
-        width: 50%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    .rest{
-        width: 65%;
-        height: 100%;
-        margin:0;
-    }
-    .navi, .dropdown {
-        width:auto;
-        height: auto;
-      }
-  }
-  .nana{
+   .nana{
     position:absolute;   
     width: 298px;
     height: 55px;
@@ -190,15 +470,7 @@ background: #2F2F2F;
 
 }
 #con{
-     display: flex; 
-     
- position: absolute;   
-width: 265px;
-height: 60px;
-left: 819px;
-top: 744px;
-
-background: #FF2642;
+ 
 
 }
 
@@ -212,7 +484,7 @@ background: #FF2642;
 .listing{
     /* 🦆 icon "hamburger menu" */
 
-position: absolute;
+/* position: absolute;
 width: 48.4px;
 height: 44px;
 left: 1414px;
@@ -267,8 +539,8 @@ height: 55px;
 left: 806px;
 top: 237px;
 background: #2F2F2F;
- 
-}
+  */
+/* }
 .te-em{
 
  position: absolute; 
@@ -304,24 +576,24 @@ background: #2F2F2F;
     top: 445px; 
     
     background: #2F2F2F; 
-    }
-    #face{
+    } */
+     /* #face{ */
         /* 🦆 icon "facebook" */
-      position: absolute; 
+      /* position: absolute; 
      left: 1051px;
      top:  900px;
       
       }
-      #goog{
+      #goog{ */
        /* 🦆 icon "google" */
-      position: absolute; 
+      /* position: absolute; 
      left: 1207px;
      top:  900px;
      
       }
-     #inst{
+     #inst{ */
      /* 🦆 icon "instagram" */
-     position: absolute;
+     /* position: absolute;
      left: 1129px;
      top:  900px;
      }
@@ -330,55 +602,53 @@ background: #2F2F2F;
      left: 1355px;
      top:  900px;
      }
-     #twi{
+     #twi{ */
          /* 🦆 icon "twitter" */
-     position: absolute;
+     /* position: absolute;
      left: 1269px;
      top:  900px;
      }
   
      .dropbtn {
         background-color:#2F2F2F;
-       } 
+       }  */
        
        /* The container <div> - needed to position the dropdown content */
-       .dropdown {
-     
-             position:  absolute;
+       /* .dropdown {
+      
              
             display: inline-block;
        }
-       
+        */
        /* Dropdown Content (Hidden by Default) */
-       .dropdown-content {
-         display: none;
-         position: absolute;
+       /* .dropdown-content {
+          
          background-color: black;
-         right:0px;
+          
          min-width: 360px;
          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
          z-index: 1;
        }
-       
+        */
        /* Links inside the dropdown */
-       .dropdown-content a {
+       /* .dropdown-content a {
          color:white;
          padding: 12px 16px;
          text-decoration: none;
          display: block;
-       }
+       } */
        
        /* Change color of dropdown links on hover */
-       .dropdown-content a:hover {background-color: #ddd;}
+       /* .dropdown-content a:hover {background-color: #ddd;} */
        
        /* Show the dropdown menu on hover */
-       .dropdown:hover .dropdown-content {display: block;}
+       /* .dropdown:hover .dropdown-content {display: block;} */
        
        /* Change the background color of the dropdown button when the dropdown content is shown */
-       .dropdown:hover .dropbtn {background-color: #2F2F2F;}
+       /* .dropdown:hover .dropbtn {background-color: #2F2F2F;}
        .ccc{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-      }
+      }  */
