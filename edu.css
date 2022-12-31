@@ -15,7 +15,6 @@ ul{
     display: flex;
     flex-direction: column;
     float: right;
-    
     padding-right: 3pc;
      
   }
@@ -102,50 +101,52 @@ ul{
     align-items: center;
   }
   .a1{
+    position:fixed;
+     right:65px;
     width: 15px;
     height: 15px;
-    left: 1442px;
     top: 262px;
     border-radius: 50%;
 
   }  
   .a2{
-    
+    position:fixed;
+     right:65px;
     width: 15px;
     height: 15px;
-    left: 1442px;
     top: 314px;
     border-radius: 50%;
   }
   .a3{
-     
+    position:fixed;
+    right:65px;
     width: 15px;
     height: 15px;
-    left: 1442px;
     top: 374px;
     border-radius: 50%;
   }
   .a4{
-     
+     position:fixed;
+     right:65px;
     width: 15px;
     height: 15px;
-    left: 1442px;
     top: 374px;
     border-radius: 50%;
   }
-  .a5{  
+  .a5{
+    position:fixed;
+     right:65px;  
     width: 15px;
     height: 15px;
-    left: 1442px;
     top: 427px;
     border-radius: 50%;
   }
   
   .a6{
-     
+    position:fixed;
+    right:65px;
     width: 15px;
     height: 15px;
-    left: 1442px;
     top: 477px;
     border-radius: 50%;
     
@@ -161,10 +162,7 @@ line-height: 48px;
 
 }
 
-.para{
-box-sizing: border-box;
-
- 
+.para{ 
 width: 551px;
 height: 281px;
 left: 214px;
@@ -177,11 +175,58 @@ font-size: 20px;
 line-height: 38px;
 
 }
+#box_experience{
+  display: flex-box;
+  flex-direction: column;
+  float: right;
+  color: #fff;
+  
+  
+  font-family:'Intel';
+  font-style: normal;
+  font-size:20px;
+  font-weight: 100;
+  line-height:38px;
+
+  width: 551px;
+height: 281px;
+right: 214px;
+top: 414.4px;
+}
 
 
 
+#face{ 
+  /* 🦆 icon "facebook" */
+ 
+top: 900px;
 
-
+}
+#goog{  
+ /* 🦆 icon "google" */
+ 
+ position:fixed;
+ bottom:  78px;
+ right: 90px;
+}
+#inst{  
+/* 🦆 icon "instagram" */
+position:fixed;
+ bottom:  78px;
+ right: 115px;
+}
+#linked{
+  position:fixed;
+  bottom:  78px;
+  right: 145px;
+}
+#twi{  
+   /* 🦆 icon "twitter" */
+ 
+   position:fixed;
+   bottom:  78px;
+   right: 175px;
+}
 
 
 
