@@ -10,6 +10,76 @@ body{
 }
 ul{
     list-style-type: none;
+  
+}
+@media only screen and(width:414px) {
+  body{
+     
+      width: 100%;
+      margin: 0;
+      padding: 0;
+  }
+  #ico{
+    position: absolute;
+    padding: 2px 2px 2px 2px;
+    bottom: 0;
+  }
+  .ashimwe{
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    top: 43px;
+  }
+  .left{
+      width: 35%;
+     float: left;
+     margin-right:10px;
+     margin-bottom: 10px;
+     margin-top: 10px;
+
+
+      margin:0;
+  }
+  #ijambo{
+    position: absolute;
+    bottom: 100px;
+    /* padding: 2px 2px 2px 2px;  */
+  } 
+  #izina{
+    position: fixed;
+    top:0;
+    padding-left: 2px;
+  }
+  #oo{
+    visibility: collapse;
+  }
+  .listing{
+    position: fixed;
+    top:8px;
+    padding-right: 2px;
+  }
+  .dropdown-content {
+    max-width: 10px;
+    right:1px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: -3;
+  }
+}
+body{
+  background-image: url('fiacre.jpg');
+  background-repeat:no-repeat;
+  background-size: 500px 100%;
+  background-position: right;
+  padding-right: 4pc;
+  background-attachment: fixed;
+  background-position-y: top;
+}
+.o{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+   align-items: center;
+  
 }
 
  .left{
@@ -18,7 +88,7 @@ ul{
     float: left;
     top: 100px;
     left: 30px;
-    position: absolute;
+    position: fixed;
      
   } 
    .right{
@@ -38,10 +108,11 @@ ul{
    } 
    #ico{
       
-        display:inline-flex;
+        display:flex;
+        align-items: right;
         justify-content: space-between;
         float: right;
-        position: fixed;
+        position: absolute;
         margin: 2px;
         padding: 4pc;
         right: 100px;
@@ -179,7 +250,20 @@ ul{
     position: fixed;
     right: 50px;
 }
-
+.ashimwe{
+  font-family: 'Intel';
+  font-size: 2em;
+  font-weight:bolder;
+  width: 543px;
+  font-weight: 900;
+  color: #fff;
+  text-align: left;
+}
+#watch{
+ font-family: 'Intel';
+ font-size:1.5em;
+ font-weight: 500;
+}
 
 
 
