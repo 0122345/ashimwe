@@ -6,31 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact me</title>
     <link rel="stylesheet" href="cont.css"/>
-    <!-- <script defer src="first.js"></script> -->
+    <script defer src="first.js"></script> 
    <script type="text/javascript">
-  
-    function validate()
-    {
-      var name = document.getElementById("name");
-      var email = document.getElementById("email");
-      var subject = document.getElementById("subject");
-      var msgbox =document.getElementById("msgbox");
-   
-         if(name.value ==""||email.value==""){
-          alert("NO BLANK VALUE ALLOWED");
-          return false;
-         }
-        else{
-          true;
-        }
-         if(subject.value ==""||message.value==""){
-          alert("BOTH SUBJECT AND MESSAGE ARE ESSENTIAL TO CONTINUE !!");
-          return false;
-         }
-         else{
-          true;
-         }
-    }
 
  function myfunc(event){
     event.preventDefault();
@@ -115,17 +92,42 @@
      </p>
      </div>
      <div class="right">
-     <form id="form" onsubmit="return validate()" onsubmit="myfunct(event)" >
+     <form id="form"  class="form" onsubmit="myfunct(event)" >
+
+        <div class="form-control success ">
           <input type="text" id="name" placeholder="NAME"/>
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+
+
+          <div class="form-control error">
           <input type="email" id="email" placeholder="EMAIL"/>
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+          </div>
+           
+          <div class="form-control ">
           <div class="labels-te2">
           <input id="subject" type="text"placeholder="subject(optional)"/>
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
           </div>     
+          </div>
+
+          <div class="form-control">
          <div class="msgbox">
-         <input id="msgbox" type="<textarea rows="" cols="" placeholder="message" required style="
+         <input id="msgbox" type="<textarea rows="" cols="" placeholder="message"style="
          background: #2F2F2F; "></textarea>
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
          </div>
-    
+         </div>
+
           <button   id="con" type="submit" > CONTACT ME</button>
      </form>
     </div>

@@ -42,7 +42,7 @@ ul{
   .a1 ,.a2, .a3,.a4,.a5{
     visibility: visible;
   }
-   form{
+   .form{
    width: 100%;
    margin:0;
    padding:0;
@@ -50,6 +50,58 @@ ul{
     padding-left: 5pc;
     padding-right: 5pc;
   }  
+  .form-control{
+  margin-bottom:  10px;
+  padding-bottom: 10px;
+  position: relative;
+  }
+  .form-control i{
+    position: absolute;
+    top:237px;
+    right:210px;
+  }
+
+  .form-control.success i.fa-check-circle{
+    color: #2ecc71;
+    visibility: visible;
+  }
+  .form-control.success i.fa-exclamation-circle{
+    color: #e74c3c;
+    visibility: visible;
+  }
+  
+  .form-control small{
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .form-control.erro small{
+    color:#e74c3c;
+    visibility:visible;
+  }
+
+  
+  .form button{
+    display: block;
+  }
+  .form-control input{
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 5px;
+    width: 100%;
+  }
+  .form-control.success input{
+    border-color: #2ecc71;
+  }
+  .form-control.error input{
+    border-color: #e74c3c;
+  }
+  
+
+  
   #izina{
     position: fixed;
     top:0;
