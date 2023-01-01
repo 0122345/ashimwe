@@ -92,13 +92,13 @@
      </p>
      </div>
      <div class="right">
-     <form id="form"  class="form" onsubmit="myfunct(event)" >
+     <form id="form_id" method="post" class="form" onsubmit="myfunct(event)" >
 
         <div class="form-control success ">
           <input type="text" id="name" placeholder="NAME"/>
           <i class="fas fa-check-circle"></i>
           <i class="fas fa-exclamation-circle"></i>
-          <small>Error message</small>
+          <small style="color: #FFFFFF;">Error message</small>
         </div>
 
 
@@ -106,7 +106,7 @@
           <input type="email" id="email" placeholder="EMAIL"/>
           <i class="fas fa-check-circle"></i>
           <i class="fas fa-exclamation-circle"></i>
-          <small>Error message</small>
+          <small style="color: #FFFFFF;">Error message</small>
           </div>
            
           <div class="form-control ">
@@ -114,7 +114,7 @@
           <input id="subject" type="text"placeholder="subject(optional)"/>
           <i class="fas fa-check-circle"></i>
           <i class="fas fa-exclamation-circle"></i>
-          <small>Error message</small>
+          <small style="color: #FFFFFF;">Error message</small>
           </div>     
           </div>
 
@@ -124,12 +124,13 @@
          background: #2F2F2F; "></textarea>
           <i class="fas fa-check-circle"></i>
           <i class="fas fa-exclamation-circle"></i>
-          <small>Error message</small>
+          <small style="color: #FFFFFF;">Error message</small>
          </div>
          </div>
 
-          <button   id="con" type="submit" > CONTACT ME</button>
+          <button id="con" value="submit" > CONTACT ME</button>
      </form>
+     <!-- onclick="submit_by_Id()" -->
     </div>
      <p id="ijambo">
     <a href="https://mail.google.com/mail/u/0/#inbox" style="color: #FFFFFF;">  @ntwarifiacre2022 </a>

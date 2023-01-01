@@ -73,10 +73,10 @@ ul{
   .form-control small{
     visibility: hidden;
     position: absolute;
-    bottom: 0;
-    left: 0;
+    /* bottom: 0;
+    left: 0; */
   }
-
+  
   .form-control.erro small{
     color:#e74c3c;
     visibility:visible;

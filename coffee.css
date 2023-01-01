@@ -219,3 +219,36 @@ border-radius: 10px;
 background: rgba(255,0,0,0.8); 
 -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 } */
+
+.left{
+  display: flex;
+  float:left;
+  flex-direction: column;
+  width: 50%;
+  
+  
+  /* position:  fixed; */
+  top: 200px;
+  left: 60px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  float: right;
+  
+  position: absolute; 
+  top: 300px;
+  right: -41px;
+  padding-left: 12px;
+  
+  
+  color: #FFF;
+}
+.cofepara{
+  font-family: 'sans-serif', serif;
+  font-weight: 400;
+  font-size: 25px;
+ color: #FFF;
+}
