@@ -1,16 +1,18 @@
- const form = document.getElementById('form');
- const name = document.getElementById('name');
- const email = document.getElementById('email');
- const subject = document.getElementById('subject');
- const msgbox = document.getElementById('msgbox');
 
- form.addEventListener('submit',(e) =>{
-    e.preventDefault();
 
-    checkInputs();
- });
+// const form = document.getElementById('form');
+//  const name = document.getElementById('name');
+//  const email = document.getElementById('email');
+//  const subject = document.getElementById('subject');
+//  const msgbox = document.getElementById('msgbox');
+
+//  form.addEventListener('submit',(e) =>{
+//     e.preventDefault();
+
+//     checkInputs();
+//  });
   
- function  send(){
+ function  chenkInputs(){
   // get values from input fields
  const nameValue = name.value.trim(); 
 const  emailValue = email.value.trim();
@@ -25,7 +27,7 @@ if(nameValue == ''){
 }
 else{
 
-  setErrorFor(name,'you can continue');
+  setsuccessFor(name,'you can continue');
 }
  
 if(subjectValue == ''){
@@ -65,7 +67,7 @@ else{
   formControl.className = 'form-control error';
  }
  function setSuccessFor(input){
- const formControl = inpt.parentElement;
+ const formControl = input.parentElement;
  formControl.className = 'form-control success';
  }
 

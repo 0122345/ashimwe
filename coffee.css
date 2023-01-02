@@ -227,28 +227,128 @@ background: rgba(255,0,0,0.8);
   width: 50%;
   
   
-  /* position:  fixed; */
+  position: absolute;
   top: 200px;
-  left: 60px;
+  left: 160px;
   padding-left: 12px;
   padding-right: 12px;
+  padding-bottom: 104px;
 }
 .right{
   display: flex;
   flex-direction: column;
   float: right;
   
-  position: absolute; 
-  top: 300px;
-  right: -41px;
+  position:absolute;
+  top: 340px;
+  right: 41px;
   padding-left: 12px;
-  
   
   color: #FFF;
 }
+ .
+
+/* .search input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+} */
+ 
+#button:hover {
+  background: #ccc;
+  cursor: pointer;
+}
+
+
 .cofepara{
   font-family: 'sans-serif', serif;
   font-weight: 400;
   font-size: 25px;
  color: #FFF;
 }
+#friend{
+  border: 0px solid ;
+  background-color: #2F2F2F;
+}
+#happy{
+  border: 0px solid ;
+  background-color: #2F2F2F;
+}
+#tpt{
+  border: 0px solid ;
+  background-color: #2F2F2F;
+}
+#comment{
+  font-family:'Geneva', serif;
+  font-weight:400;
+  font-size:25px;
+
+  color:#FFF;
+}
+#iconn{
+  width: 50px;
+  height: 50px;  
+  padding: 10px;
+  border: 1px solid #fff;
+  background-color:#fff;
+}
+#leave{
+  font-family: 'poppins';
+  font-weight: 500;
+  font-size:25px;
+
+  color:#fff;
+
+}
+.form{
+  box-sizing: border-box;
+  /* box-shadow:   black; */
+ padding-bottom: 34px;
+} 
+  #con{
+  
+   width: 180px;
+   height: 40px;
+   position:initial;
+   left: 909px;
+   top: 944px;
+   margin: 4px;
+   background:  #A91957;
+   cursor: pointer;
+  }
+  #subject{
+    width: 389px;
+   height: 30px;
+   left: 806px;
+   top: 333px;
+   background: #232628;
+   margin: 4px;
+ } 
+#name{
+  width: 170.5px;
+  height: 30px;
+  left: 806px;
+  top: 237px;
+  background:  #222527;
+  margin: 2px 4px 4px 4px;
+}
+  #email{
+    width: 200.5px;
+    height: 30px;
+    left: 1128px;
+    top: 235px;
+    background:  #232628;
+     margin: 0 4px 4px 4px;
+  }
+#send{
+    width: 120px;
+    height: 40px;
+    position:initial;
+    
+    top: 944px;
+    margin: 4px;
+    background:  #A91957;
+    cursor: pointer;
+  }
+  
