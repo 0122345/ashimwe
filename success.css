@@ -1,0 +1,21 @@
+*{
+    /* box-sizing: border-box; */
+
+    box-shadow: 0 4px 6px 3px lightblue;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     width: 400px;
+     height: 300px;
+
+    border: solid rgb(114, 242, 54);
+    
+    
+}
+H1,h3{
+    color: blue;
+}

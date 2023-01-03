@@ -1,4 +1,10 @@
 // localStorage.setItem("name","domestic"); akako karakora
+  
+
+
+
+
+
 
   function con() { 
 
