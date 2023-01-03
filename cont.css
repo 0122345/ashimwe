@@ -110,18 +110,6 @@ ul{
   #line, #number,#address{
     visibility: hidden;
   }
-  .listing{
-    position: fixed;
-    top:8px;
-    padding-right: 2px;
-  }
-  .dropdown-content {
-    max-width: 10px;
-    right:1px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: -3;
-  }
-
 @media only screen and (max-width:800px) {
    /* For mobile ipads:  */
    body{
@@ -407,9 +395,7 @@ a:link { text-decoration: none; }
 }
 
 
-
-
-
+ 
 
 
 

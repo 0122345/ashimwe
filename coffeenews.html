@@ -7,24 +7,7 @@
     <title> Coffee, do you actual know about it</title>
     <link rel="stylesheet" href="coffee.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script type="text/javascript">
-      
-      function con() { 
-
-      const name = document.getElementById("name").value;
-      const email = document.getElementById("email").value;
-      const subject = document.getElementById("subject").value;
-      const msgbox = document.getElementById("msgbox").value;
-
-      localStorage.setItem("name",name);
-      localStorage.setItem("email",email);
-      localStorage.setItem("subject",subject);
-      localStorage.setItem("msgbox",msgbox);
-      window.location.reload();
-
-      };
-
-    </script>
+    <script src="first.js"> </script>
   </head>
 <div class="navi">
     <p id="izina">NTWARI</p>
@@ -47,7 +30,7 @@
     <a href="index.html">HOME</a>
     <a href="education.html">EDUCATION</a>
       <a href="area.html">EXPERIENCE</a>
-          <a href="Recent news.html"> Recent News</a>
+          <a href="Recent_news.html">RECENT NEWS</a>
           <a href="contact_me.html">CONTACT ME</a>
           <div class="ccc">
     <a href=" https://www.facebook.com/ntwari.fiacre.7?_rdc=1&_rdr"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFFFFF" class="bi bi-facebook" viewBox="0 0 16 16">
@@ -157,6 +140,7 @@
     </span> 
    </div>
     <div class="form">
+      <form>
       <p id="leave">
         leave a comment
       </p>
@@ -170,9 +154,10 @@
           <textarea class="comment" id="msgbox" rows="10" cols="52" placeholder="Your comment"style="
           background: #232628; "></textarea>
         </div>
-        <button id="send" onclick="con()" style="color:#fff">post a comment</button>
+        <button class="send" onclick="con()" style="color:#fff">post a comment</button>
        </div>
     </div>
+    </form>
    </div>
     <div class="right">
       <div class="search_bar">

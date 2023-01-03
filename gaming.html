@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="coffee.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+ <script src="first.js"></script>
+
 <div class="navi">
     <p id="izina">NTWARI</p>
     <ul>
@@ -29,7 +31,7 @@
     <a href="index.html">HOME</a>
     <a href="education.html">EDUCATION</a>
       <a href="area.html">EXPERIENCE</a>
-          <a href="Recent_news.html"> Recent News</a>
+          <a href="Recent_news.html">RECENT NEWS</a>
           <a href="contact_me.html">CONTACT ME</a>
           <div class="ccc">
     <a href=" https://www.facebook.com/ntwari.fiacre.7?_rdc=1&_rdr"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFFFFF" class="bi bi-facebook" viewBox="0 0 16 16">
@@ -59,7 +61,7 @@
         <a href="index.html"><button class="a1"></button></a>
         <a href="education.html"><button class="a2"></button></a>
           <a href="area.html"><button class="a3"></button></a>
-          <a href=" Recent_news.html"> <button class="a4"></button></a>
+          <a href="Recent_news.html"> <button class="a4"></button></a>
          <a href="contact_me.html"><button class="a5"></button></a>
            <a href="index.html"><button class="a6"></button></a>
     </div>  
@@ -137,6 +139,7 @@
     </span> 
    </div>
     <div class="form">
+      <form>
       <p id="leave">
         leave a comment
       </p>
@@ -145,14 +148,15 @@
       <input type="email" id="email" placeholder="email"/>
        </div>
        <div class="sub">
-        <input type="url" id="subject" placeholder="website">
+        <input type="text" id="subject" placeholder="website">
         <div class="idea">
           <textarea class="comment" rows="10" cols="52" placeholder="Your comment"style="
           background: #232628; "></textarea>
         </div>
-        <button value="submit" id="send" style="color:#fff">post a comment</button>
+        <button onclick="con()" value="submit" class="send" style="color:#fff">post a comment</button>
        </div>
     </div>
+  </form>
    </div>
     <div class="right">
       <div class="search_bar">

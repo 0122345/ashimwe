@@ -17,51 +17,51 @@
 
  };
 
- function  chenkInputs(){
-  // get values from input fields
- const nameValue = name.value.trim(); 
-const  emailValue = email.value.trim();
-const subjectValue = subject.value.trim();
-const msgboxValue = msgbox.value.trim();
+//  function  chenkInputs(){
+//    get values from input fields
+//  const nameValue = name.value.trim(); 
+// const  emailValue = email.value.trim();
+// const subjectValue = subject.value.trim();
+// const msgboxValue = msgbox.value.trim();
    
 
-if(nameValue == ''){
+// if(nameValue == ''){
 
-  setErrorFor(name,'please your name is important');
+//   setErrorFor(name,'please your name is important');
   
-}
-else{
+// }
+// else{
 
-  setsuccessFor(name,'you can continue');
-}
+//   setsuccessFor(name,'you can continue');
+// }
  
-if(subjectValue == ''){
+// if(subjectValue == ''){
 
-  setErrorFor(subject,'please can you specify a subject');
+//   setErrorFor(subject,'please can you specify a subject');
   
-}
-else{
+// }
+// else{
 
-  setErrorFor(subject,'you can continue');
-}
+//   setErrorFor(subject,'you can continue');
+// }
 
-if(msgboxValue == ''){
+// if(msgboxValue == ''){
 
-  setErrorFor(msgbox,'can you leave us a comment please!?');
+//   setErrorFor(msgbox,'can you leave us a comment please!?');
   
-}
-else{
+// }
+// else{
 
-  setErrorFor(msgbox,'you can continue');
-}
+//   setErrorFor(msgbox,'you can continue');
+// }
 
- if(emailValue ==''){
- setErrorFor(email,'please your email is essential');
- }else if(email(emailValue)){
-  setErrorFor(email,'please enter valid email');
- }else{
-  setErrorFor(email,'you can now continue!');
- }
+//  if(emailValue ==''){
+//  setErrorFor(email,'please your email is essential');
+//  }else if(email(emailValue)){
+//   setErrorFor(email,'please enter valid email');
+//  }else{
+//   setErrorFor(email,'you can now continue!');
+//  }
 
 //  function setErrorFor(input, message){
 //   const formControl = input.parentElement;
@@ -71,14 +71,14 @@ else{
 
 //   formControl.className = 'form-control error';
 //  }
- function setSuccessFor(input){
- const formControl = input.parentElement;
- formControl.className = 'form-control success';
- }
+//  function setSuccessFor(input){
+//  const formControl = input.parentElement;
+//  formControl.className = 'form-control success';
+//  }
 
-function isEmail(email){
-  return   /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
-}
+// function isEmail(email){
+//   return   /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
+// }
 // if (validation()) // Calling validation function
 // {
 // document.getElementById("form_id").submit(); //form submission
@@ -87,5 +87,5 @@ function isEmail(email){
 // }
 
 
-}
+// }
 
