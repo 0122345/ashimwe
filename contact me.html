@@ -6,25 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact me</title>
     <link rel="stylesheet" href="cont.css"/>
-   
-    <script defer src="first.js"></script> 
+
+    <script defer src="first.js"></script>  
    <script type="text/javascript">
 
- function myfunc(event){
-    event.preventDefault();
-    var name = document.getElementById("name").value;
-      var email = document.getElementById("email").value;
-      
-      var subject = document.getElementById("subject").value;
-      var msgbox = document.getElementById("msgbox").value;
-        
-    
 
-     localstorage.setItem('Is_name', name);
-     localstorage.setItem('Is_email', email);
-     localstorage.setItem('Is_subject', subject);
-     localstorage.setItem('Is_msgbox', msgbox);
-   }
    </script>
 </head>
 <div class="navi">
@@ -93,7 +79,8 @@
      </p>
      </div>
      <div class="right">
-     <form id="form_id" method="post" class="form" onsubmit="myfunct(event)" >
+     <form id="form_id" method="post" class="form">
+      <!-- onsubmit="myfunct(event)" -->
 
         <div class="form-control success ">
           <input type="text" id="name" placeholder="NAME"/>
@@ -120,7 +107,7 @@
           </div>
 
           <div class="form-control">
-         <div class="msgbox">
+         <div class="msgboxx" id="msgbox">
           <textarea rows="10" cols="52"placeholder="message"style="
          background: #232628; "></textarea>
           <i class="fas fa-check-circle"></i>
@@ -129,7 +116,7 @@
          </div>
          </div>
 
-          <button id="con" value="submit" > CONTACT ME</button>
+          <button onclick="con()" class="conn"> CONTACT ME</button>
      </form>
      <!-- onclick="submit_by_Id()" -->
     </div>

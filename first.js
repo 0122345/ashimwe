@@ -1,17 +1,22 @@
+// localStorage.setItem("name","domestic"); akako karakora
 
+  function con() { 
 
-// const form = document.getElementById('form');
-//  const name = document.getElementById('name');
-//  const email = document.getElementById('email');
-//  const subject = document.getElementById('subject');
-//  const msgbox = document.getElementById('msgbox');
-
-//  form.addEventListener('submit',(e) =>{
-//     e.preventDefault();
-
-//     checkInputs();
-//  });
+  const name = document.getElementById("name").value;
+ const email = document.getElementById("email").value;
+ const subject = document.getElementById("subject").value;
+ const msgbox = document.getElementById("msgbox").value;
   
+
+  
+  localStorage.setItem("name",name);
+  localStorage.setItem("email",email);
+  localStorage.setItem("subject",subject);
+  localStorage.setItem("msgbox",msgbox);
+  window.location.reload();
+
+ };
+
  function  chenkInputs(){
   // get values from input fields
  const nameValue = name.value.trim(); 
@@ -52,20 +57,20 @@ else{
 
  if(emailValue ==''){
  setErrorFor(email,'please your email is essential');
- }else if(!isEmail(emailValue)){
+ }else if(email(emailValue)){
   setErrorFor(email,'please enter valid email');
  }else{
   setErrorFor(email,'you can now continue!');
  }
 
- function setErrorFor(input, message){
-  const formControl = input.parentElement;
-  const small = formControl.querySelector('small');
+//  function setErrorFor(input, message){
+//   const formControl = input.parentElement;
+//   const small = formControl.querySelector('small');
 
-  small.innerText = message;
+//   small.innerText = message;
 
-  formControl.className = 'form-control error';
- }
+//   formControl.className = 'form-control error';
+//  }
  function setSuccessFor(input){
  const formControl = input.parentElement;
  formControl.className = 'form-control success';

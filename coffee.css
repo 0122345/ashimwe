@@ -246,7 +246,7 @@ background: rgba(255,0,0,0.8);
   
   color: #FFF;
 }
- .
+ 
 
 /* .search input[type=text] {
   padding: 6px;
@@ -255,10 +255,10 @@ background: rgba(255,0,0,0.8);
   border: none;
 } */
  
-#button:hover {
+  .button:hover {
   background: #ccc;
   cursor: pointer;
-}
+} 
 
 
 .cofepara{
@@ -267,6 +267,7 @@ background: rgba(255,0,0,0.8);
   font-size: 25px;
  color: #FFF;
 }
+
 #friend{
   border: 0px solid ;
   background-color: #2F2F2F;
