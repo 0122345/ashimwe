@@ -142,7 +142,7 @@
     </span> 
    </div>
     <div class="form">
-      <form onsubmit="return validate()" name="myform">
+      <form   action="contribution_of_computer.html" onsubmit="return validate()" name="myform">
       <p id="leave">
         leave a comment
       </p>
@@ -151,7 +151,7 @@
       <input type="email" id="email" placeholder="email"/>
        </div>
        <div class="sub">
-        <input type="url" id="subject" placeholder="website">
+        <input type="text" id="subject" placeholder="website">
         <div class="idea">
           <textarea class="comment" id="msgbox" rows="10" cols="52" placeholder="Your comment"style="
           background: #232628; "></textarea>
@@ -163,7 +163,7 @@
    </div>
     <div class="right">
       <div class="search_bar">
-        <form action="/action_page.php" class="form">
+        <form  class="form">
           <input type="text" placeholder="Search.." name="search" class="search">
           <button type="submit" id="button"><i class="fa fa-search"></i></button>
         </form>
@@ -237,10 +237,12 @@
    
    
          if( name.value.trim()==""){
+          alert("please enter your name")
            name.style.border = "solid 3px red";
            return false;
          }
          else if(email.value.trim()== ""){
+          alert("please enter your email")
            email.style.border = "solid 3px red";
             return false;
          }
@@ -261,6 +263,7 @@
             return false;
          }
        else{
+        alert("your post was received successful!")
          return true;
        }
          }
