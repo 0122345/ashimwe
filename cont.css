@@ -17,15 +17,19 @@ ul{
   /* For mobile phones:  */
   body{
      
-      width: 100%;
+      width: 75%;
       margin: 0;
       padding: 0;
   }
-  #ico{
-    position: absolute;
-    padding: 2px 2px 2px 2px;
-    bottom: 0;
-  }
+   #number{
+    visibility: collapse;
+   }
+   #line{
+    visibility: collapse;
+   }
+   #address{
+    visibility: collapse;
+   }
   .left{
       width: 50%;
       margin:0;
@@ -36,51 +40,23 @@ ul{
   }
   #ijambo{
     position: absolute;
-    bottom: 0px;
+    bottom: 40px;
     
   }
   .a1 ,.a2, .a3,.a4,.a5{
     visibility: visible;
   }
     .form{
-   width: 100%;
+   width: 40%;
    margin:0;
-   padding:0;
-     float:center;
+   padding-right: 20px;
+   float:center;
     padding-left: 5pc;
-    padding-right: 5pc;
+   
   }   
-  /* .form-control{
-  margin-bottom:  10px;
-  padding-bottom: 10px;
-  position: relative;
-  } */
-  /* .form-control i{
-    position: absolute;
-    top:237px;
-    right:210px;
-  } */
-
-  .form-control.success i.fa-check-circle{
-    color: #2ecc71;
-    visibility: visible;
-  }
-  .form-control.success i.fa-exclamation-circle{
-    color: #e74c3c;
-    visibility: visible;
-  }
-  
-  /* .form-control small{
-    visibility: hidden;
-    position: absolute;
-    /* bottom: 0;
-    left: 0; */
-  } */
-  
-  .form-control.erro small{
-    color:#e74c3c;
-    visibility:visible;
-  }
+   
+  } 
+   
 
   
   .form button{
@@ -93,12 +69,6 @@ ul{
     padding: 5px;
     width: 100%;
   }
-  .form-control.success input{
-    border-color: #2ecc71;
-  }
-  .form-control.error input{
-    border-color: #e74c3c;
-  }
   
 
   
@@ -107,85 +77,7 @@ ul{
     top:0;
     padding-left: 2px;
   }
-  #line, #number,#address{
-    visibility: hidden;
-  }
-@media only screen and (max-width:800px) {
-   /* For mobile ipads:  */
-   body{
-    width: 100%;
-    height: 1180px;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    background-image: url("1000_locations.jpg");
-    background-repeat: no-repeat;
-    background-size:820px 1180px;
-}
-#ico{
-  position: absolute;
-  padding: 2px 2px 2px 2px;
-  bottom: 0;
-}
-.left{
-    width: 100%;
-    margin:0;
-}
-.right{
-  width:75%;
-  align-items: center;
-}
-#ijambo{
-  position: absolute;
-  bottom: 0px;
-  
-}
-.a1 ,.a2, .a3,.a4,.a5{
-  visibility: visible;
-}
- form{
- width: 100%;
- margin:0;
- padding:0;
-   float:center;
-  padding-left: 5pc;
-  padding-right: 5pc;
-}  
-#izina{
-  position: fixed;
-  top:0;
-  padding-left: 2px;
-}
-#line, #number,#address{
-  visibility: hidden;
-}
-.listing{
-  position: fixed;
-  top:8px;
-  padding-right: 2px;
-}
-.dropdown-content {
-  max-width: 10px;
-  right:1px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: -3;
-}
-}
-@media only screen and (max-width:1024px) {
-  body{
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-.right, .left{
-    width: 100%;
-    margin:0;
-}
- .navi, .rest {
-  width:auto;
-  height: auto;
-}
-}
+ 
  .navi{
   display: flex;
   flex-direction: row;
@@ -310,9 +202,11 @@ a:link { text-decoration: none; }
  .dropdown-content {
    display: none;
    position: absolute;
-   background-color: black;
+   background-color: #141617;
    right:0px;
+   overflow: hidden;
    min-width: 360px;
+   min-height: 100vh;
    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
    z-index: 1;
  }
@@ -339,6 +233,14 @@ a:link { text-decoration: none; }
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-left: 20px;
+  top: 400px;
+  position: fixed;
+}
+#ntwari{
+  top:450px;
+  padding-left: 30px;
+  position: fixed;
 }
 .a1{
   width: 15px;
@@ -389,12 +291,99 @@ a:link { text-decoration: none; }
   width: 15px;
   height: 15px;
   left: 1442px;
-  top: 477px;
+  top: 777px;
   border-radius: 50%;
   background-color: #9C2051;
 }
+#face{ 
+  /* 🦆 icon "facebook" */
+ 
+top: 900px;
+}
+#face:hover{
+  color:#DA4C84;
+}
+#goog{  
+ /* 🦆 icon "google" */
+ 
+ position:fixed;
+ bottom:  78px;
+ right: 90px;
+}
+#goog:hover{
+  color:#DA4C84;
+}
+#inst{  
+/* 🦆 icon "instagram" */
+position:fixed;
+ bottom:  78px;
+ right: 115px;
+}
+#inst:hover{
+  color:#DA4C84;
+}
+#linked{
+  position:fixed;
+  bottom:  78px;
+  right: 145px;
+}
+#linked:hover{
+  color:#DA4C84;
+}
+#twi{  
+   /* 🦆 icon "twitter" */
+ 
+   position:fixed;
+   bottom:  78px;
+   right: 175px;
+}
+#twi:hover{
+  color:#DA4C84;
+  cursor:pointer;
+}
+  .scroller{
+    /* box-sizing: border-box; */
+    box-sizing: content-box;
+    border: solid #141617;
+    width: 220px;
+    height: 100px;
+    padding-bottom: 8px;
+    overflow-x: scroll;
 
-
+    
+    padding-left: 20px;
+    top: 100px;
+    position: fixed;
+  }
+  .scroller::-webkit-scrollbar-track
+{
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+background-color: lightgray;
+}
+.scroller::-webkit-scrollbar
+{
+width: 6px;
+background-color: #F5F5F5;
+} 
+.scroller::-webkit-scrollbar-thumb
+{
+background-color: purple;
+}
+#number{
+  top: 24px;
+  position: fixed;
+   left: 430px;
+}
+#line{
+  top: 24px;
+  position: fixed;
+   left: 570px;
+}
+#address{
+  top: 24px;
+  position: fixed;
+   left: 580px;
+}
  
 
 

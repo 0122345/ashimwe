@@ -414,5 +414,19 @@ position:fixed;
   color:#DA4C84;
   cursor:pointer;
 }
-  
+#number{
+  top: 24px;
+  position: fixed;
+   left: 430px;
+}
+#line{
+  top: 24px;
+  position: fixed;
+   left: 570px;
+}
+#address{
+  top: 24px;
+  position: fixed;
+   left: 580px;
+}
   
