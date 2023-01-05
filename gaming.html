@@ -71,11 +71,11 @@
         Pros and Cons of gaming
      </p>
      <p>
-        <span style="color:#DA4C84">Home </span>
+      <a href="index.html"> <span style="color:#DA4C84">Home </span></a>
         <span style="color:#fff;"> - </span>
-        <span style="color:#DA4C84">Blog</span>
+        <a href="blog.html">  <span style="color:#DA4C84">Blog</span></a>
         <span style="color:#fff;"> - </span>
-        <span style="color:#DA4C84">News </span> 
+        <a href=" #l">  <span style="color:#DA4C84">News </span> </a>
         <span style="color:#fff;"> - </span>
         <span style="color:#fff;">Pros and Cons of gaming</span>
      </p>
@@ -139,7 +139,7 @@
     </span> 
    </div>
     <div class="form">
-      <form>
+      <form onsubmit="return validate()" name="myform">
       <p id="leave">
         leave a comment
       </p>
@@ -150,7 +150,7 @@
        <div class="sub">
         <input type="text" id="subject" placeholder="website">
         <div class="idea">
-          <textarea class="comment" rows="10" cols="52" placeholder="Your comment"style="
+          <textarea class="comment" rows="10" id="msgbox" cols="52" placeholder="Your comment"style="
           background: #232628; "></textarea>
         </div>
         <button onclick="con()" value="submit" class="send" style="color:#fff">post a comment</button>
@@ -160,7 +160,7 @@
    </div>
     <div class="right">
       <div class="search_bar">
-        <form action="/action_page.php" class="form">
+        <form action="/action_page.php" class="form" name="myform">
           <input type="text" placeholder="Search.." name="search" class="search">
           <button type="submit" id="button"><i class="fa fa-search"></i></button>
         </form>
@@ -219,5 +219,66 @@
    
        </p>
      </div>
+     <script type="text/javascript"> 
+
+function validate(){
+         
+         var name = document.getElementById("name")
+        var email = document.getElementById("email")
+        var subject = document.getElementById("subject")
+        var msgbox = document.getElementById("msgbox")
+         
+      
+       var x=document.myform.email.value;  
+         var atposition=x.indexOf("@");  
+         var dotposition=x.lastIndexOf(".");   
+   
+   
+         if( name.value.trim()==""){
+           name.style.border = "solid 3px red";
+           return false;
+         }
+         else if(email.value.trim()== ""){
+           email.style.border = "solid 3px red";
+            return false;
+         }
+         else   if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){  
+           alert("Please enter a valid e-mail address ! ");  
+           return false;  
+           }  
+        else if(subject.value.trim()== ""){
+         subject.style.border = "solid 3px red";
+            return false;
+         }
+         else if(msgbox.value.trim()== ""){
+           msgbox.style.border = "solid 3px red";
+            return false;
+         }
+         else if(msgbox.value.trim().length<20){
+           alert("please enter atleast 20 characters")
+            return false;
+         }
+       else{
+         return true;
+       }
+         }
+       
+         function con() { 
+       
+       const name = document.getElementById("name").value;
+       const email = document.getElementById("email").value;
+       const subject = document.getElementById("subject").value;
+       const msgbox = document.getElementById("msgbox").value;
+       
+       
+       
+       localStorage.setItem("name",name);
+       localStorage.setItem("email",email);
+       localStorage.setItem("subject",subject);
+       localStorage.setItem("msgbox",msgbox);
+        
+       
+       };
+         </script>
 </body>
 </html>

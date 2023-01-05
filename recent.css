@@ -7,7 +7,7 @@ html{
     margin: 0;
     padding: 0;
  }
- @media only screen and( orientation: landscape) {
+ @media only screen and( width: 414px) {
   body{
     width: 100%;
      }
@@ -38,6 +38,12 @@ html{
      }
      .para_right{
     
+      width: 20px;
+      text-align: left;
+      display: flexbox;
+      flex-direction: column;
+
+
     top: 20px;
     text-align: right;
     float: right;
@@ -46,7 +52,12 @@ html{
     position: absolute;
      }
      .para_center{
-     
+      width: 20px;
+      text-align: left;
+      display: flexbox;
+      flex-direction: column; 
+
+      width: 40px;
       position: absolute;
       top: 20px;
       justify-content: center;
@@ -122,7 +133,7 @@ html{
 
 
 .para_left{
-  display: flexbox;
+  display: flex;
   flex-direction: column;
   float: left;
   text-align: left;
@@ -133,7 +144,7 @@ html{
   line-height:15px;
 
   color:#fff;
-  position: fixed;
+  position: absolute; 
   width: 350px;
   left: 114px;
   top:  300px;
@@ -152,20 +163,18 @@ html{
 
   font-weight:normal;
   line-height: 15px;
-
+   
+  position: absolute;
+   width: 350px;
+ top:  300px;
   color:#fff;
-  position: fixed;
-  width: 350px;
+
   left: 450px;
   padding-left: 20px;
   padding-right: 20px;
-  top:  300px;
+ 
 
 }
-/* #above{
-  color:#DA4C84;
-  
-} */
 #ijambo{
   position: absolute;
   bottom: 50px;
@@ -182,7 +191,7 @@ html{
   font-weight:normal;
   line-height:15px;
 
-position: fixed;
+ position: absolute; 
 width: 350px;
 right: 114px;
 top:  300px;
