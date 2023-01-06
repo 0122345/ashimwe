@@ -1,16 +1,44 @@
 // localStorage.setItem("name","domestic"); akako karakora
   
-//  function (){
-  // const email = document.getElementById("email");
-   
-  // const emailpattern =   /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+let section = document.querySelectorAll("section");
+let menu = document.querySelectorAll("navi a button");
 
-  //  if(email.ariaValueMax.match(emailpattern)){
-  //   email.style.border = "solid 3px green";
-  //   alert("it is valid email");
-  //  }else{
-  //   email.style.border = "solid 3px red";
-  //   alert("it is not valid email")
-  //  }
-  // }
+window.onscroll = () => {
+  section.forEach((i) => {
+    let top = window.scrollY;
+    let offset = i.offsetTop - 150;
+    let height = i.offsetHeight;
+    let id = i.getAttribute("id");
+
+    if (top >= offset && top < offset + height) {
+      menu.forEach((link) => {
+        link.classList.remove("active");
+        document
+          .querySelector(" navi a button[href*=" + id + "]")
+          .classList.add("active");
+      });
+    }
+  });
+};
+
+function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal);
+
+// To check the scroll position on page load
+reveal();
 

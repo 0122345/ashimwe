@@ -11,21 +11,21 @@ This is a my logo
 1.IT's consist of almost six html pages,including:
 .index
 .education
-.field and experiances
+.Recent_news
 .area
 .blog
-.contact me
+.contact_me
 
 2 IT has also css files for clarification it is explained in the table below:
 
 |HTML   |CSS   |JS   |
 |---|---|---|
-|index|styles|no js|
-|education|edu| no js|
-|Area|skills|no js|
-|field of experiance| boo| no js|
-|blog|blo |no js |
-|contact me| cont| built in js|
+|index|styles|first|
+|education|edu|first|
+|Area|skills|first|
+|Recent_news|recent|first|
+|blog|bloo |first|
+|contact me| cont| built with in html file && first|
 
 ### IF YOU WANT TO CHECK IT YOU CAN
 

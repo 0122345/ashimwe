@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
 html{
     width:100%;
     margin: 0;
@@ -7,7 +9,23 @@ body{
     background-image: url("tomy-boy-.jpg");
     background-repeat: no-repeat;
     background-size: 1540px 982px;
+    background-color: #ddd;
+    opacity: 1.75;
 }
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+
 #number{
   position: sticky;
   width: 250px;
@@ -132,96 +150,119 @@ ul{
          /* position:  absolute; */
    }
    
-   /* Dropdown Content (Hidden by Default) */
-   .dropdown-content {
-     display: none;
-     position: absolute;
-     background-color: black;
-     right:0px;
-     min-width: 360px;
-     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-     z-index: 1;
-   }
-   
-   /* Links inside the dropdown */
-   .dropdown-content a {
-     color:white;
-     padding: 12px 16px;
-     text-decoration: none;
-     display: block;
-   }
-   
-   /* Change color of dropdown links on hover */
-   .dropdown-content a:hover {background-color: #ddd;}
-   
-   /* Show the dropdown menu on hover */
-   .dropdown:hover .dropdown-content {display: block;}
-   
-   /* Change the background color of the dropdown button when the dropdown content is shown */
-   .dropdown:hover .dropbtn {background-color: #2F2F2F;}
-  
-   .ccc{
+   .dropdown {
+    display: flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
+    float: right;
+
+      /* position:  absolute; */
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #141617;
+  right:0px;
+  overflow: hidden;
+  min-width: 360px;
+  min-height: 100vh;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color:white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #2F2F2F;}
+
+.ccc{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ padding-left: 20px;
+ top: 400px;
+ position: fixed;
+}
+#ntwari{
+ top:450px;
+ padding-left: 30px;
+ position: fixed;
+}
+ 
+
+
   a:link { text-decoration: none; }
  a:visited { text-decoration: none; }
  a:hover { text-decoration: none; }
  a:active { text-decoration: none; }
-  .a1{
-    position:fixed;
-     right:65px;
-    width: 15px;
-    height: 15px;
-    top: 262px;
-    border-radius: 50%;
+  
+ .a1{
+  position:fixed;
+   right:65px;
+  width: 15px;
+  height: 15px;
+  top: 162px;
+  border-radius: 50%;
 
-  }  
-  .a2{
-    position:fixed;
-     right:65px;
-    width: 15px;
-    height: 15px;
-    top: 314px;
-    border-radius: 50%;
-  }
-  .a3{
-    position:fixed;
-    right:65px;
-    width: 15px;
-    height: 15px;
-    top: 374px;
-    border-radius: 50%;
-  }
-  .a4{
-     position:fixed;
-     right:65px;
-    width: 15px;
-    height: 15px;
-    top: 374px;
-    border-radius: 50%;
-  }
-  .a5{
-    position:fixed;
-     right:65px;  
-    width: 15px;
-    height: 15px;
-    top: 427px;
-    border-radius: 50%;
-  }
-  
-  .a6{
-    position:fixed;
-    right:65px;
-    width: 15px;
-    height: 15px;
-    top: 477px;
-    border-radius: 50%;
-    
-  }
-  
+}  
+.a2{
+  position:fixed;
+   right:65px;
+  width: 15px;
+  height: 15px;
+  top: 202px;
+  border-radius: 50%;
+}
+.a3{
+  position:fixed;
+  right:65px;
+  width: 15px;
+  height: 15px;
+  top: 242px;
+  border-radius: 50%;
+}
+.a4{
+   position:fixed;
+   right:65px;
+  width: 15px;
+  height: 15px;
+  top: 283px;
+  border-radius: 50%;
+}
+.a5{
+  position:fixed;
+   right:65px;  
+  width: 15px;
+  height: 15px;
+  top:  322px;
+  border-radius: 50%;
+}
+
+.a6{
+  position:fixed;
+  right:65px;
+  width: 15px;
+  height: 15px;
+  top:   362px;
+  border-radius: 50%;
+}
+.a1,.a2, .a3, .a4, .a5, .a6{
+  background-color: #181A1B;
+}
 .my{
     
 font-family: 'Inter';
@@ -327,7 +368,34 @@ position:fixed;
   position: fixed;
    left: 580px;
 }
+.scroller{
+  /* box-sizing: border-box; */
+  box-sizing: content-box;
+  border: solid #141617;
+  width: 220px;
+  height: 100px;
+  padding-bottom: 8px;
+  overflow-x: scroll;
 
+  
+  padding-left: 20px;
+  top: 100px;
+  position: fixed;
+}
+.scroller::-webkit-scrollbar-track
+{
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+background-color:  #141617;
+}
+.scroller::-webkit-scrollbar
+{
+width: 6px;
+background-color:  #141617;
+} 
+.scroller::-webkit-scrollbar-thumb
+{
+background-color: purple;
+}
 
 
 

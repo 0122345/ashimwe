@@ -58,12 +58,37 @@
   </div>
 <body>
     <div class="rest">
+      <section id="a1">
+        <div class="container reveal">
         <a href="index.html"><button class="a1"></button></a>
+        </div>
+        </section>
+
+        <section id="a2" >
+          <div class="container reveal">
         <a href="education.html"><button class="a2"></button></a>
+         </div>
+          </section>
+        <section id="a3" class="active">
+          <div class="container reveal">
           <a href="area.html"><button class="a3"></button></a>
+          </div>
+          </section>
+          <section id="a4">
+            <div class="container reveal">
           <a href="Recent_news.html"> <button class="a4"></button></a>
+           </div>
+           </section>
+          <section id="a5">
+            <div class="container reveal">
          <a href="contact_me.html"><button class="a5"></button></a>
+            </div>
+            </section>
+         <section id="a6">
+          <div class="container reveal">
            <a href="index.html"><button class="a6"></button></a>
+           </div>
+           </section>
     </div>
     <div class="left">
     <p id="sp">
@@ -80,7 +105,7 @@
      </p>
      </div>
      <div class="right">
-     <form id="form_id"  name="myform" class="form" method="POST" action="thank.html" onsubmit="return validate()">
+     <form id="form_id"  name="myform" class="form" method="POST" action="contact_me.html" onsubmit="return validate()">
           <input type="text" id="name" placeholder="NAME"/>
           <input type="email" id="email" placeholder="EMAIL"/>
         
@@ -131,7 +156,7 @@
           </p>
         </div>
   <script type="text/javascript">
-    function validate(){
+      function validate(){
          
          var name = document.getElementById("name")
         var email = document.getElementById("email")
@@ -145,10 +170,12 @@
    
    
          if( name.value.trim()==""){
+          alert("please enter your name")
            name.style.border = "solid 3px red";
            return false;
          }
          else if(email.value.trim()== ""){
+          alert("please enter your email")
            email.style.border = "solid 3px red";
             return false;
          }
@@ -169,10 +196,14 @@
             return false;
          }
        else{
+        alert("your post was received successful!")
+        name.style.border = "solid 3px green";
+        email.style.border = "solid 3px green";
+        subject.style.border = "solid 3px green";
+        msgbox.style.border = "solid 3px green";
          return true;
        }
          }
-       
          function con() { 
        
        const name = document.getElementById("name").value;

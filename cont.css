@@ -9,6 +9,20 @@ body{
     background-repeat: no-repeat;
     background-size:1553px 982px; 
  }
+ body::-webkit-scrollbar-track
+ {
+ -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+ background-color:  #1C1C1C;
+ }
+  body::-webkit-scrollbar
+ {
+ width: 6px;
+ background-color:  #1C1C1C;
+ } 
+  body::-webkit-scrollbar-thumb
+ {
+ background-color: rgba(19, 18, 19, 0.042);
+ }
 ul{
     list-style-type:  none;
     
@@ -242,58 +256,72 @@ a:link { text-decoration: none; }
   padding-left: 30px;
   position: fixed;
 }
+ 
 .a1{
+  position:fixed;
+   right:65px;
   width: 15px;
   height: 15px;
-  left: 1442px;
-  top: 262px;
+  top: 162px;
   border-radius: 50%;
-  visibility: collapse;
+
 }  
 .a2{
-  
+  position:fixed;
+   right:65px;
   width: 15px;
   height: 15px;
-  left: 1442px;
-  top: 314px;
+  top: 202px;
   border-radius: 50%;
-  visibility: collapse;
 }
 .a3{
-   
+  position:fixed;
+  right:65px;
   width: 15px;
   height: 15px;
-  left: 1442px;
-  top: 374px;
+  top: 242px;
   border-radius: 50%;
-  visibility: collapse;
 }
 .a4{
-   
+   position:fixed;
+   right:65px;
   width: 15px;
   height: 15px;
-  left: 1442px;
-  top: 374px;
+  top: 283px;
   border-radius: 50%;
-  visibility: collapse;
 }
-.a5{  
+.a5{
+  position:fixed;
+   right:65px;  
   width: 15px;
   height: 15px;
-  left: 1442px;
-  top: 427px;
+  top:  322px;
   border-radius: 50%;
-  visibility: collapse;
+  background-color: #DA4C84;
+
 }
 
 .a6{
-   
+  position:fixed;
+  right:65px;
   width: 15px;
   height: 15px;
-  left: 1442px;
-  top: 777px;
+  top:   362px;
   border-radius: 50%;
-  background-color: #9C2051;
+}
+.a1,.a2, .a3, .a4, .a5, .a6{
+  background-color: #181A1B;
+}
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
 }
 #face{ 
   /* 🦆 icon "facebook" */
@@ -358,12 +386,12 @@ position:fixed;
   .scroller::-webkit-scrollbar-track
 {
 -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-background-color: lightgray;
+background-color:  #141617;
 }
 .scroller::-webkit-scrollbar
 {
 width: 6px;
-background-color: #F5F5F5;
+background-color:  #141617;
 } 
 .scroller::-webkit-scrollbar-thumb
 {
