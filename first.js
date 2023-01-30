@@ -42,3 +42,11 @@ window.addEventListener("scroll", reveal);
 // To check the scroll position on page load
 reveal();
 
+
+function click(){
+  
+  // onclick="document.getElementById('a5').innerHTML =  button.style.color ="white" 
+
+
+}
+
