@@ -2,16 +2,23 @@
 
 html{
     width:100%;
+    height: 100%;
     margin: 0;
     padding: 0;
 }
+
 body{
-    background-image: url("tomy-boy-.jpg");
+    
+   width: 100%;
+   height: 100%;
+   margin: 0;
+
+    background-image: url('tomy-boy-.jpg');
     background-repeat: no-repeat;
-    background-size: 1540px 982px;
-    background-color: #ddd;
-    opacity: 1.75;
+    overflow-y: hidden; 
+  
 }
+ 
 .reveal {
   position: relative;
   transform: translateY(150px);
@@ -146,18 +153,15 @@ ul{
        display: flexbox;
        display: flex;
        float: right;
+       position: fixed;
+
+       top: 20px;
+       right: 25px;
+
   
          /* position:  absolute; */
    }
-   
-   .dropdown {
-    display: flexbox;
-    display: flex;
-    float: right;
-
-      /* position:  absolute; */
-}
-
+ 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
@@ -292,6 +296,8 @@ line-height: 38px;
   float: right;
   padding:8px;
   border:solid black;
+  background-color: #ddd;
+  opacity: 0.9;
   
   font-family:'Intel';
   font-style: normal;
@@ -306,16 +312,18 @@ right: 214px;
 top: 414.4px;
 }
 #box_experience:hover{
-  color:red;
+  color:rgb(0, 26, 255);
   cursor:pointer;
 }
 #box_edu{
   color: #fff;
   padding:8px;
   border:solid black;
+  background-color: #ddd;
+  opacity: 0.9;
 }
 #box_edu:hover{
-  color:red;
+  color:rgb(14, 170, 66);
   cursor: pointer;
 }
 

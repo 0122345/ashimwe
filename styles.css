@@ -6,7 +6,8 @@ html{
 body{
     width: 100%;
     background-color:  #1C1C1C;
-    background-size:1553px 982px;
+    overflow-x: hidden;
+    /* background-size:1553px 982px; */
 }
  /* body::-webkit-scrollbar-track
 {
@@ -208,11 +209,12 @@ body{
  position: fixed;
 }
 .vid{
-
+   
  display: flex;
  left:120px;
  top: 280px;
  position: fixed;
+  
 }
 .line{ 
 
@@ -226,6 +228,12 @@ body{
   }
   .dropbtn{
     background-color: #141617;
+    position: fixed;
+    display: flexbox;
+
+    top: 10px;
+    right: 25px;
+    margin: 20px;
   }
 .dropdown {
   display: flexbox;
@@ -271,6 +279,8 @@ align-items: center;
 padding-left: 20px;
 top: 400px;
 position: fixed;
+
+color: #DA4C84;
 }
 #ntwari{
 top:450px;
@@ -286,8 +296,9 @@ position: fixed;
   height: 15px;
   top: 162px;
   border-radius: 50%;
- background-color: #DA4C84;
-}  
+  
+}
+
 .a2{
   position:fixed;
    right:65px;
@@ -295,7 +306,9 @@ position: fixed;
   height: 15px;
   top: 202px;
   border-radius: 50%;
+  
 }
+
 .a3{
   position:fixed;
   right:65px;
@@ -303,7 +316,9 @@ position: fixed;
   height: 15px;
   top: 242px;
   border-radius: 50%;
+   
 }
+
 .a4{
    position:fixed;
    right:65px;
@@ -311,7 +326,9 @@ position: fixed;
   height: 15px;
   top: 283px;
   border-radius: 50%;
+  
 }
+
 .a5{
   position:fixed;
    right:65px;  
@@ -326,11 +343,12 @@ position: fixed;
   right:65px;
   width: 15px;
   height: 15px;
-  top:   362px;
-  border-radius: 50%;
+  top: 362px;
+  border-radius:  50% ;
+ 
 }
 .a1,.a2, .a3, .a4, .a5, .a6{
-  background-color: #181A1B;
+    background-color:  #DA4C84;
 }
 .reveal {
   position: relative;

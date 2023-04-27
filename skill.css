@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+   
 }
 html{
   width:100%;
@@ -8,6 +9,7 @@ html{
 }
 body{
 width: 100%;
+overflow: hidden;
 }
  body::-webkit-scrollbar-track
 {
@@ -294,17 +296,11 @@ top: 250.44px;
        display: flex;
        float: right;
   
-         /* position:  absolute; */
+        position: fixed;
+        right: 25px;
+        top: 20px;
    }
-   
-   .dropdown {
-    display: flexbox;
-    display: flex;
-    float: right;
-
-      /* position:  absolute; */
-}
-
+  
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;

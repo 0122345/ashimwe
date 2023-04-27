@@ -55,8 +55,10 @@
      padding: 0;
   }
   body{
+
      width: 100%;
      background-color: #141617;
+     overflow-x: hidden;
   }
    
   .reveal {
@@ -138,11 +140,13 @@
      bottom:0px;
    }
    .dropdown {
-    display: flexbox;
     display: flex;
     float: right;
-
-      /* position:  absolute; */
+    
+    position: fixed;
+    right: 26px;
+    top: 25px;
+      
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -423,10 +427,14 @@
  button{
    background-color:  #DA4C84;
    color:#FFF;
+   width: 102px;
+   height: 32px;
+
+   border-radius: 18px;
  }
   
    button:hover {
-   background: #ccc;
+   background: #63e7e7;
    cursor: pointer;
  } 
  
