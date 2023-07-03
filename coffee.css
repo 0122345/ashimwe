@@ -465,11 +465,12 @@ background-color:  #141617;
 }
 .scroller::-webkit-scrollbar
 {
-width: 6px;
+width: 16px;
 background-color:  #141617;
 } 
 .scroller::-webkit-scrollbar-thumb
 {
+width: 12px;
 background-color: purple;
 }
 #button{

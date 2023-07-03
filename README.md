@@ -1,5 +1,8 @@
 # My portfolio
 
+```html<div style="background-color:gray;">`
+
+
 This is a my logo
 
 ![my logo](my_icon.jpg)
@@ -8,13 +11,14 @@ This is a my logo
 
 ## THIS IS ACTUAL MY FIRST  README AS WELL AS PORTIFOLIO
 
-1.IT's consist of almost six html pages,including:
+1.IT's consist of almost six major html pages,including:
 .index
 .education
 .Recent_news
 .area
 .blog
 .contact_me
+.and other more
 
 2 IT has also css files for clarification it is explained in the table below:
 
@@ -31,4 +35,4 @@ This is a my logo
 
 .[visit website](https://0122345.github.io/ashimwe/)
 
- .[Or here](https://ntwarifiacre-port.vercel.app/)
+ .[Or here](https://ntwarifiacre-portfolio.vercel.app/)
